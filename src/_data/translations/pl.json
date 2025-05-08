@@ -1,0 +1,353 @@
+{
+    "quicklinks": {
+        "title": "Szybkie linki",
+        "faq": "FAQ",
+        "departments": "Działy",
+        "login": "Zaloguj się"
+    },
+    "quicklinksDealer": {
+        "title": "Szybkie linki",
+        "info": "Więcej informacji",
+        "signup": "Rejestracja dealera",
+        "login": "Zaloguj się"
+    },
+    "language": {
+        "english": "Angielski",
+        "spanish": "Hiszpański",
+        "russian": "Rosyjski",
+        "polish": "Polski",
+        "ukranian": "Ukraiński"
+    },
+    "index": {
+        "header": {
+            "customer": "Dla Klientów",
+            "dealer": "Dla Dealerów",
+            "about": "O Nas",
+            "contact": "Kontakt",
+            "privacy": "Polityka Prywatności",
+            "careers": "Kariera"
+        },
+        "quicklinks": {
+            "request": "Złóż Zapytanie",
+            "signup": "Rejestracja Dealera",
+            "payoff": "Wycena Spłaty"
+        },
+        "loginForm": {
+            "title": "Logowanie Klienta",
+            "emailLabel": "E-mail",
+            "passwordLabel": "Hasło",
+            "loginLabel": "Zaloguj się",
+            "forgotPasswordLabel": "Zapomniałeś Hasła?",
+            "createNewLabel": "Utwórz Nowe"
+        },
+        "hero": {
+            "title": "Zarządzaj swoim kontem z łatwością",
+            "subtitle": "Dokonaj płatności lub zaloguj się na swoje konto",
+            "or": "lub",
+            "detail": "Zadzwoń pod numer (888) 402-5212",
+            "action": "Zaloguj się",
+            "pivotText": "Jesteś dealerem?",
+            "pivotAction": "Zaloguj się tutaj"
+        },
+        "actionBubbles": [
+            {
+                "title": "Płać Online",
+                "description": "Wygodnie realizuj płatności online za pomocą naszej bezpiecznej platformy.",
+                "action": "Rozpocznij"
+            },
+            {
+                "title": "Uzyskaj Pomoc",
+                "description": "Potrzebujesz pomocy? Nasz zespół wsparcia jest tutaj, aby odpowiedzieć na Twoje pytania i rozwiązać problemy.",
+                "action": "Skontaktuj się"
+            },
+            {
+                "title": "Dowiedz się Więcej",
+                "description": "Poznaj nasze usługi i dowiedz się, co możemy Ci zaoferować.",
+                "action": "Więcej Informacji"
+            }
+        ],
+        "promise": {
+            "title": "Nasza Obietnica",
+            "description": "Ubiegając się o pożyczkę i budując zdolność kredytową, można natknąć się na frustrację i niepotrzebne komplikacje. W Pronto obiecujemy uprościć i przyspieszyć proces — zgodnie z \"drogą Pronto\". Niezależnie od tego, czy kupujesz samochód, meble, czy po prostu potrzebujesz pożyczki, jesteśmy tu, aby Ci pomóc.",
+            "quote": "Aplikowanie o pożyczkę nie musi być skomplikowane"
+        },
+        "pivots": {
+            "customer": {
+                "title": "Dla Klientów",
+                "description": "Uzyskaj dostęp do swojego konta klienta, aby zarządzać zamówieniami, przeglądać historię zakupów i znaleźć spersonalizowane wsparcie.",
+                "action": "Zaloguj się",
+                "icon": "fa-solid fa-user"
+            },
+            "dealer": {
+                "title": "Dla Dealerów",
+                "description": "Zaloguj się do portalu dealera, aby zarządzać zapasami, uzyskać dostęp do zasobów i przeglądać ekskluzywne wsparcie dla dealerów.",
+                "action": "Zaloguj się",
+                "icon": "fa-solid fa-briefcase"
+            }
+        },
+        "stats": [
+            {
+                "title": "Obsłużeni Klienci",
+                "value": "60K"
+            },
+            {
+                "title": "Sfinansowane Pożyczki",
+                "value": "200 Milionów"
+            },
+            {
+                "title": "Działamy Od",
+                "value": "2006"
+            }
+        ],
+        "info": [
+            {
+                "title": "Pożyczki Bez Problemów",
+                "value": "Jeśli potrzebujesz zbudować lub naprawić kredyt, masz nową pracę lub nigdy wcześniej nie aplikowałeś o pożyczkę, Pronto jest tutaj, aby z Tobą współpracować. Rozumiemy, że życie może być skomplikowane, dlatego uprościliśmy proces ubiegania się o pożyczkę Pronto.",
+                "svgName": "money-receive"
+            },
+            {
+                "title": "Równe Szanse Kredytowe",
+                "value": "Pronto nie dyskryminuje ze względu na rasę, kolor skóry, płeć, religię, narodowość, stan cywilny, wiek (jeśli wnioskodawca ma zdolność prawną do zawarcia wiążącej umowy), status dochodowy lub inne prawnie chronione cechy.",
+                "svgName": "harmony"
+            },
+            {
+                "title": "Członek AFSA",
+                "value": "Pronto z dumą jest członkiem American Financial Services Association (AFSA). <a class='pf-link' target='_blank' rel='noopener noreferrer' href='https://www.afsaonline.org'>AFSA</a> jest krajowym stowarzyszeniem branżowym dla sektora kredytów konsumenckich, chroniąc dostęp do kredytu i wybór konsumenta. Stowarzyszenie promuje i utrzymuje etyczne praktyki biznesowe oraz wspiera edukację finansową konsumentów w każdym wieku.",
+                "svgName": "afsa-membership"
+            }
+        ],
+        "faq": [
+            {
+                "question": "Jakie rodzaje pożyczek oferujecie?",
+                "answer": "Specjalizujemy się w pożyczkach samochodowych, oferując rozwiązania finansowe dla tych, którzy chcą kupić lub refinansować używany pojazd. Nasze usługi są zaprojektowane tak, aby wspierać różnorodne sytuacje finansowe, więc możemy pomóc Ci pewnie wrócić na drogę."
+            },
+            {
+                "question": "Czy mogę się zakwalifikować, jeśli mój kredyt nie jest idealny?",
+                "answer": "Tak! Współpracujemy z klientami z różnych środowisk finansowych. Naszym celem jest oferowanie opcji finansowania dla osób z różnorodnymi historiami kredytowymi, więc nie wahaj się skontaktować i zobaczyć, jak możemy Ci pomóc."
+            },
+            {
+                "question": "Jak szybko mój dealer otrzyma decyzję o pożyczce?",
+                "answer": "Staramy się zapewniać szybkie decyzje, często w tym samym dniu roboczym. Korzystając z naszego ekskluzywnego portalu dla dealerów, możesz szybko składać wnioski i śledzić ich postęp w czasie rzeczywistym. Po przejrzeniu Twojej aplikacji, skontaktujemy się z kolejnymi krokami."
+            }
+        ]
+    },
+    "about": {
+        "title": "Pomagamy Ci ruszyć naprzód",
+        "subtitle": "Specjalizujemy się w elastycznych, przystępnych kredytach samochodowych subprime, oferując drugą szansę tym, którzy mają trudności z kredytem. W Pronto Finance jesteśmy oddani pomocy w odbudowie Twojej zdolności kredytowej i umożliwieniu Ci prowadzenia auta, na które zasługujesz.",
+        "header": "O nas",
+        "subheader": "Z zaangażowaniem w spersonalizowaną obsługę, nasz zespół ściśle współpracuje z każdym klientem, aby znaleźć elastyczne i przystępne rozwiązania finansowe. Rozumiemy, że życie może być nieprzewidywalne, a naszym celem jest stworzenie możliwości odbudowy kredytu podczas jazdy autem, na które zasługujesz. Niezależnie od tego, czy kupujesz swój pierwszy pojazd, czy szukasz ulepszenia, Pronto Finance jest tutaj, aby pomóc Ci realizować marzenia.",
+        "pivots": {
+            "mission": {
+                "title": "Nasza Misja",
+                "description": "W Pronto Finance naszą misją jest uczynienie finansowania samochodów dostępnym dla każdego. Jesteśmy zaangażowani w oferowanie elastycznych rozwiązań i spersonalizowanej obsługi, pomagając naszym klientom osiągać cele i z pewnością kierować swoją przyszłością."
+            },
+            "commitment": {
+                "title": "Nasze Zobowiązanie",
+                "description": "Jesteśmy oddani zapewnieniu płynnego i bezstresowego finansowania samochodów, które stawia Twoje potrzeby na pierwszym miejscu. Nasze zobowiązanie polega na oferowaniu elastycznych, spersonalizowanych rozwiązań i wyjątkowej obsługi, zapewniając wsparcie na każdym etapie Twojej podróży."
+            }
+        }
+    },
+    "contact": {
+        "title": "Skontaktuj się z nami",
+        "hours": "Godziny pracy",
+        "messageHeader": "Wyślij nam wiadomość",
+        "messageContent": "Masz pytania dotyczące swojego konta lub opinię na temat naszych usług? Chętnie Cię wysłuchamy! Skontaktuj się z nami tutaj."
+    },
+    "dealers": {
+        "loginForm": {
+            "switchCustomer": "Zaloguj się jako Klient",
+            "switchDealer": "Zaloguj się jako Dealer",
+            "loginTitle": "Logowanie Dealera",
+            "emailLabel": "E-mail",
+            "passwordLabel": "Hasło",
+            "loginLabel": "Zaloguj się",
+            "forgotPasswordLabel": "Zapomniałeś Hasła?",
+            "createNewLabel": "Utwórz Nowe"
+        },
+        "hero": {
+            "title": "Wspieranie Dealerów",
+            "subtitle": "Płynne Rozwiązania Finansowe",
+            "detail": "Podnieś swój Biznes dzięki Naszej Ekspertyzie",
+            "action": "Zaloguj się",
+            "pivotText": "Jesteś dealerem?",
+            "pivotAction": "Zaloguj się Tutaj"
+        },
+        "title": "Witamy w Pronto Finance",
+        "description": "W Pronto Finance naszą misją jest wspieranie osób i firm poprzez dostępne, wydajne i innowacyjne rozwiązania finansowe, napędzając sukces i otwierając możliwości na każdej drodze.",
+        "stats": [
+            {
+                "title": "Obsługiwane Dealery",
+                "value": "6,500+"
+            },
+            {
+                "title": "Działamy Od",
+                "value": "2006"
+            },
+            {
+                "title": "Średni Czas Finansowania",
+                "value": "48 Godzin"
+            }
+        ],
+        "commitment": {
+            "title": "Nasze Zobowiązanie dla Ciebie",
+            "description": "Dzięki szybkiemu finansowaniu samochodów i zespołowi skoncentrowanemu na Twoim sukcesie jesteśmy tutaj, aby ułatwić osiąganie Twoich celów. Łącząc doświadczenie z innowacyjnym podejściem, tworzymy rozwiązania dostosowane do Twoich potrzeb, wspierając Cię na każdym kroku."
+        },
+        "pivots": [
+            {
+                "title": "Zaloguj się",
+                "description": "Zaloguj się do swojego portalu Pronto Finance, aby zarządzać aplikacjami i łatwo zwiększać sprzedaż.",
+                "action": "Więcej Informacji",
+                "icon": "fas fa-sign-in-alt"
+            },
+            {
+                "title": "Dowiedz się Więcej",
+                "description": "Współpracuj z nami, aby uzyskać rozwiązania, które wspierają rozwój i sukces Twojego dealera.",
+                "action": "Więcej Informacji",
+                "icon": "fas fa-info-circle"
+            }
+        ],
+        "learnForm": {
+            "title": "Dowiedz się więcej o Pronto Finance",
+            "dealerName": "Nazwa Dealera",
+            "dealerType": "Typ Dealera",
+            "entityType": "Typ Podmiotu",
+            "openSince": "Otwarte Od",
+            "firstName": "Imię",
+            "lastName": "Nazwisko",
+            "address": "Adres",
+            "city": "Miasto",
+            "state": "Stan",
+            "zip": "Kod Pocztowy",
+            "email": "E-mail",
+            "phone": "Telefon",
+            "question1": "Skąd o nas usłyszałeś?",
+            "question2": "Miesięczna sprzedaż?",
+            "submit": "Wyślij"
+        },
+        "message": {
+            "header": "Dowiedz się więcej o Pronto Finance",
+            "subheader": "Gotowy, aby podnieść swój biznes? Skontaktuj się z nami, aby dowiedzieć się, jak Pronto Finance może pomóc Ci szybciej finalizować transakcje i zwiększać sprzedaż."
+        }
+    },
+    "contactBanner": {
+        "title": "Potrzebujesz pomocy? Zadzwoń do nas!",
+        "detail_primary": "Linia Główna",
+        "detail_secondary": "Linia Dziedziczna"
+    },
+    "header": {
+        "customer": "Dla klientów",
+        "dealer": "Dla dealerów",
+        "vendor": "Relacje z dostawcami",
+        "about": "O nas",
+        "contact": "Skontaktuj się z nami",
+        "privacy": "Polityka prywatności",
+        "careers": "Kariera"
+    },
+    "blog": {
+        "more": "Czytaj więcej"
+    },
+    "privacy": {
+        "text": "Pronto Finance rozumie, że Twoja prywatność jest ważna i zależy Ci na tym, jak Twoje dane są wykorzystywane. Pronto zobowiązuje się do zapewnienia naszym klientom najwyższej jakości usług. To zobowiązanie obejmuje ochronę prywatności informacji osobistych, które z nami udostępniasz. Możesz być pewien, że mamy zabezpieczenia chroniące Twoje dane.<br><br><br>ZBIERANIE INFORMACJI<br><br>Większość informacji o kliencie pochodzi od Ciebie w momencie składania wniosku o pożyczkę. Zbieramy dane osobowe (takie jak Twoje imię, adres, numer telefonu, numery kont bankowych i kart kredytowych oraz inne informacje zawarte w Twoim wniosku kredytowym) oraz weryfikację tych danych. Wykorzystujemy Twoje dane w celu realizacji potrzeb finansowych oraz powiązanych produktów. Używamy ich również do aktualizacji Twojego konta i zapewnienia prawidłowego rozliczenia.<br><br><br>DYSTRYBUCJA INFORMACJI<br><br>Pronto nie sprzedaje ani nie wynajmuje danych osobowych niefiliaowanym firmom lub podmiotom. Pewne informacje mogą być ujawnione godnym zaufania stronom trzecim pomagającym nam w przetwarzaniu Twojego wniosku o pożyczkę (np. agencjom raportowania kredytowego), ale wyłącznie zgodnie z prawem lub w odpowiedzi na uzasadnione żądania rządowe, wezwania sądowe lub nakazy sądowe. W przyszłości możemy zawierać umowy z renomowanymi firmami, aby oferować Ci dodatkowe usługi lub produkty finansowe. Jeśli nie chcesz, aby informacje, które udostępniasz Pronto, były dzielone z innymi niefiliaowanymi firmami, zadzwoń do nas pod numer (847) 695-4900 lub wskaż tę preferencję podczas udostępniania danych Pronto, a my spełnimy Twoją prośbę.<br><br><br>OCHRONA POUFNOŚCI INFORMACJI<br><br>Utrzymujemy fizyczne, elektroniczne i proceduralne zabezpieczenia zgodne z prawem, aby chronić Twoje dane. Nasza strona internetowa nie śledzi, nie zbiera ani nie udostępnia danych osobowych niewprowadzonych przez odwiedzających. Rejestrujemy datę i godzinę wizyt na naszej stronie oraz odwiedzane strony, aby określić, które strony są najczęściej odwiedzane, i zapewnić lepsze doświadczenie dla naszych klientów i dealerów. Ograniczamy dostęp do niepublicznych informacji osobowych o Tobie wyłącznie do tych pracowników, którzy potrzebują ich do wykonywania swoich obowiązków związanych z Twoim wnioskiem o pożyczkę. Wszyscy pracownicy mający dostęp do Twoich danych osobowych są zobowiązani do zachowania ich poufności zarówno w trakcie zatrudnienia w Pronto, jak i po jego zakończeniu. Pracownicy, którzy nie przestrzegają tego obowiązku, podlegają działaniom korygującym, w tym rozwiązaniu umowy o pracę.<br><br><br>JAK SPRAWDZIĆ, JAKIE INFORMACJE POSIADAMY<br><br>Możesz poprosić o przegląd informacji o Tobie w naszych rejestrach. Jeśli uważasz, że dane są niekompletne lub nieścisłe, możesz zażądać dokonania niezbędnych korekt, uzupełnień lub usunięć informacji. Jeśli masz pytania dotyczące naszej Polityki Prywatności i Bezpieczeństwa, skontaktuj się z Wiceprezesem ds. Technologii Informacyjnych."
+    },
+"cs": {
+    "title": {
+        "header": "Klient",
+        "subheader": "Usługi, które oferujemy"
+    },
+    "services": [
+        {
+            "title": "Elastyczne finansowanie",
+            "description": "Ułatwiamy finansowanie dla każdego! Niezależnie od tego, czy masz ITIN, wolisz płacić gotówką, czy masz niższą zdolność kredytową, jesteśmy tutaj, aby pomóc. Nasze elastyczne opcje są dostosowane do Twoich potrzeb, abyś mógł wyjechać z pewnością siebie. Uprośćmy ten proces i sprawmy, aby był bezstresowy dla Ciebie!"
+        },
+        {
+            "title": "Pożyczki osobiste",
+            "description": "Uzyskaj finansowy zastrzyk, którego potrzebujesz, dokładnie wtedy, kiedy tego potrzebujesz. Nasze pożyczki osobiste są zaprojektowane tak, aby wspierać Cię w ważnych momentach życia, niezależnie od tego, czy konsolidujesz długi, pokrywasz nieoczekiwane wydatki, czy planujesz coś specjalnego. Dzięki konkurencyjnym stawkom i elastycznym warunkom, jesteśmy tutaj, aby pomóc Ci osiągnąć Twoje cele w przystępny sposób."
+        },
+        {
+            "title": "Opcje refinansowania",
+            "description": "Odczuj ulgę dzięki niższym płatnościom i lepszym warunkom. Refinansowanie u nas może pomóc Ci zmniejszyć miesięczne raty, szybciej spłacić pożyczkę lub uzyskać środki na inne priorytety finansowe. Pokażemy Ci, jak refinansowanie może być mądrym krokiem w kierunku bardziej zrównoważonej i satysfakcjonującej przyszłości finansowej."
+        }
+    ],
+    "cta": {
+        "title": "Gotowy na kolejny krok?",
+        "description": "Zadzwoń do nas już dziś i rozpocznij swoją podróż do spokoju finansowego!",
+        "action": "Skontaktuj się z nami"
+    }
+},
+"ds": {
+    "title": {
+        "header": "Dealer",
+        "subheader": "Usługi, które oferujemy"
+    },
+    "services": [
+        {
+            "title": "Szybkie i elastyczne finansowanie samochodów",
+            "description": "Pronto Finance oferuje bezproblemowe rozwiązania w zakresie pośredniego finansowania samochodów, dostosowane do Twoich klientów. Dzięki szybkim decyzjom, konkurencyjnym warunkom i wsparciu dla wszystkich profili kredytowych zapewniamy płynny proces zarówno dla dealerów, jak i kupujących."
+        },
+        {
+            "title": "Kompleksowe opcje ubezpieczenia",
+            "description": "Rozszerz swoją ofertę dzięki Pronto Insurance, zaprojektowanemu, aby spełnić różnorodne potrzeby klientów i zwiększyć wartość Twojego salonu.",
+            "action": "Dowiedz się więcej"
+        },
+        {
+            "title": "Innowacyjne rozwiązania dla dealerów",
+            "description": "Skorzystaj z dodatkowych usług, takich jak wstępnie zatwierdzone leady i zaawansowane opcje śledzenia GPS, aby zwiększyć sprzedaż i poprawić efektywność operacyjną."
+        },
+        {
+            "title": "Indywidualne gwarancje i produkty GAP",
+            "description": "Zapewnij swoim klientom spokój ducha dzięki naszym specjalnie zaprojektowanym umowom serwisowym pojazdów (VSC) i ochronie przed utratą wartości (GAP). Te elastyczne produkty dodatkowe zwiększają ofertę Twojego salonu, jednocześnie zwiększając potencjał przychodów i idealnie wpisując się w model biznesowy."
+        }
+    ],
+    "cta": {
+        "title": "Gotowy na współpracę z Pronto Finance?",
+        "description": "Skontaktuj się z nami już dziś i odkryj narzędzia oraz usługi, które pozwolą Twojemu salonowi odnieść sukces!",
+        "action": "Skontaktuj się z nami"
+    },
+    "other": [
+        {
+            "title": "Pożyczki hurtowe",
+            "description": "Uzyskaj elastyczne i niezawodne finansowanie hurtowe, aby spełnić potrzeby Twojego salonu. Uprość zakupy inwentarza dzięki konkurencyjnym warunkom i dostosowanemu wsparciu zaprojektowanemu, aby Twoja firma działała sprawnie."
+        },
+        {
+            "title": "Finansowanie POS",
+            "description": "Zwiększ sprzedaż dzięki naszym bezproblemowym opcjom finansowania POS. Daj swoim klientom możliwość uzyskania finansowania na miejscu i zwiększ liczbę transakcji z łatwością i efektywnością."
+        }
+    ]
+},
+"general": {
+    "slogan": "Twój zaufany partner w finansowaniu samochodów, dedykowany pomaganiu Ci w realizacji Twoich marzeń.",
+    "hoursLabel": "Godziny pracy",
+    "hours1": "Pn - Pt: 9:00 - 18:00 CST",
+    "hours2": "Sb: 9:00 - 14:00 CST",
+    "contactLabel": "Skontaktuj się z nami",
+    "followLabel": "Śledź nas",
+    "telephoneLabel": "Telefon",
+    "addressLabel": "Adres",
+    "address": "1515 Woodfield Rd, Suite 103, Schaumburg, IL 60173",
+    "nameLabel": "Imię",
+    "namePlaceholder": "Twoje imię",
+    "dealershipLabel": "Salon",
+    "dealershipPlaceholder": "Nazwa salonu",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "messageLabel": "Wiadomość",
+    "messagePlaceholder": "Wiadomość",
+    "sendLabel": "Wyślij",
+    "emailShort": "Email"
+},
+"careers": {
+    "label": "Dołącz do naszego zespołu",
+    "description": "W Pronto Finance zawsze szukamy pełnych pasji, utalentowanych osób, które chcą robić różnicę. Jeśli jesteś zainteresowany dołączeniem do dynamicznego zespołu zorientowanego na klienta, który pomaga ludziom osiągać ich cele finansowe, chcielibyśmy Cię poznać!"
+},
+"departments": {
+    "label": "Działy",
+    "collections": "Windykacja",
+    "funding": "Finansowanie",
+    "sales": "Sprzedaż",
+    "repossesions": "Przejęcia",
+    "claims": "Roszczenia",
+    "buying": "Zakupy",
+    "operations": "Operacje",
+    "general": "Zapytania Ogólne"
+}
+}

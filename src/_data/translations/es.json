@@ -1,0 +1,353 @@
+{
+    "quicklinks": {
+        "title": "Enlaces rápidos",
+        "faq": "Preguntas frecuentes",
+        "departments": "Departamentos",
+        "login": "Iniciar sesión"
+    },
+    "quicklinksDealer": {
+        "title": "Enlaces rápidos",
+        "info": "Más información",
+        "signup": "Registro de concesionario",
+        "login": "Iniciar sesión"
+    },
+    "language": {
+        "english": "Inglés",
+        "spanish": "Español",
+        "russian": "Ruso",
+        "polish": "Polaco",
+        "ukranian": "Ucraniano"
+    },
+     "index": { 
+            "header": {
+                "customer": "Para Clientes",
+                "dealer": "Para Concesionarios",
+                "about": "Sobre Nosotros",
+                "contact": "Contáctanos",
+                "privacy": "Política de Privacidad",
+                "careers": "Carreras"
+            },
+            "quicklinks": {
+                "request": "Solicitar Información",
+                "signup": "Registro de Concesionario",
+                "payoff": "Cotización de Liquidación"
+            },
+            "loginForm": {
+                "title": "Inicio de Sesión del Cliente",
+                "emailLabel": "Correo Electrónico",
+                "passwordLabel": "Contraseña",
+                "loginLabel": "Iniciar Sesión",
+                "forgotPasswordLabel": "¿Olvidó su Contraseña?",
+                "createNewLabel": "Crear Nuevo"
+            },
+            "hero": {
+                "title": "Administra tu cuenta con facilidad",
+                "subtitle": "Realiza un pago o inicia sesión en tu cuenta",
+                "or": "o",
+                "detail": "Llama al (888) 402-5212",
+                "action": "Iniciar sesión",
+                "pivotText": "¿Eres un concesionario?",
+                "pivotAction": "Inicia sesión aquí"
+            },
+            "actionBubbles": [
+                {
+                    "title": "Paga en Línea",
+                    "description": "Realiza pagos en línea de manera conveniente con nuestra plataforma segura.",
+                    "action": "Comenzar"
+                },
+                {
+                    "title": "Obtén Asistencia",
+                    "description": "¿Necesitas ayuda? Nuestro equipo de soporte está aquí para asistirte con cualquier pregunta o inquietud.",
+                    "action": "Contáctanos"
+                },
+                {
+                    "title": "Descubre Más",
+                    "description": "Descubre más sobre nuestros servicios y lo que podemos ofrecerte.",
+                    "action": "Más Información"
+                }
+            ],
+            "promise": {
+                "title": "Nuestra Promesa para Ti",
+                "description": "Solicitar un préstamo y establecer crédito puede ser frustrante y demasiado complicado. En Pronto, nuestro amable personal promete hacer que el proceso sea lo más sencillo y rápido posible — a la manera \"Pronto\". Ya sea que estés comprando un auto, muebles o simplemente necesites un préstamo, estamos aquí para ayudarte.",
+                "quote": "Solicitar un préstamo no tiene por qué ser complicado"
+            },
+            "pivots": {
+                "customer": {
+                    "title": "Para Clientes",
+                    "description": "Accede a tu cuenta de cliente para gestionar pedidos, ver tu historial de compras y encontrar soporte personalizado.",
+                    "action": "Iniciar Sesión",
+                    "icon": "fa-solid fa-user"
+                },
+                "dealer": {
+                    "title": "Para Concesionarios",
+                    "description": "Inicia sesión en tu portal de concesionario para gestionar inventarios, acceder a recursos y ver soporte exclusivo para concesionarios.",
+                    "action": "Iniciar Sesión",
+                    "icon": "fa-solid fa-briefcase"
+                }
+            },
+            "stats": [
+                {
+                    "title": "Clientes Atendidos",
+                    "value": "60K"
+                },
+                {
+                    "title": "Préstamos Financiados",
+                    "value": "200 Millones"
+                },
+                {
+                    "title": "En Operación Desde",
+                    "value": "2006"
+                }
+            ],
+            "info": [
+                {
+                    "title": "Financiamiento Sin Complicaciones",
+                    "value": "Si necesitas establecer o reparar crédito, si tienes un nuevo empleo, o si nunca has solicitado un préstamo antes, Pronto está aquí para trabajar contigo. Entendemos que la vida puede ser complicada, por lo que hemos hecho que solicitar un préstamo Pronto sea sencillo.",
+                    "svgName": "money-receive"
+                },
+                {
+                    "title": "Igualdad de Oportunidades de Crédito",
+                    "value": "Pronto no discrimina por raza, color, sexo, religión, origen nacional, estado civil, edad (siempre que el solicitante tenga capacidad legal para celebrar un contrato vinculante); estado de asistencia pública; o porque el solicitante ha ejercido de buena fe algún derecho bajo una ley de protección al consumidor; o por cualquier otro estado legalmente protegido.",
+                    "svgName": "harmony"
+                },
+                {
+                    "title": "Miembro de AFSA",
+                    "value": "Pronto se enorgullece de ser miembro de la Asociación Americana de Servicios Financieros (AFSA). <a class='pf-link' target='_blank' rel='noopener noreferrer' href='https://www.afsaonline.org'>AFSA</a> es la asociación comercial nacional para la industria del crédito al consumidor, protegiendo el acceso al crédito y la elección del consumidor. La Asociación fomenta y mantiene prácticas comerciales éticas y apoya la educación financiera para consumidores de todas las edades.",
+                    "svgName": "afsa-membership"
+                }
+            ],
+            "faq": [
+                {
+                    "question": "¿Qué tipos de préstamos ofrecen?",
+                    "answer": "Nos especializamos en préstamos para autos, ofreciendo soluciones de financiamiento para quienes buscan comprar o refinanciar un vehículo usado. Nuestros servicios están diseñados para apoyar diversas situaciones financieras, por lo que podemos ayudarte a volver a la carretera con confianza."
+                },
+                {
+                    "question": "¿Puedo calificar si mi crédito no es perfecto?",
+                    "answer": "¡Sí! Trabajamos con clientes de diversos antecedentes financieros. Nuestro objetivo es proporcionar opciones de financiamiento para quienes tienen historiales crediticios diversos, así que no dudes en contactarnos para ver cómo podemos ayudarte."
+                },
+                {
+                    "question": "¿Cuánto tiempo tarda mi concesionario en recibir una decisión sobre un préstamo?",
+                    "answer": "Nos esforzamos por proporcionar aprobaciones rápidas, a menudo dentro del mismo día hábil. A través de nuestro exclusivo portal para concesionarios, puedes enviar solicitudes rápidamente y seguir su progreso en tiempo real. Una vez que tu solicitud sea revisada, nos pondremos en contacto con los siguientes pasos."
+                }
+            ]
+        },
+    "about": {
+        "title": "Ayudándote a avanzar",
+        "subtitle": "Nos especializamos en préstamos para autos subprime flexibles y asequibles, ofreciendo una segunda oportunidad a quienes enfrentan desafíos de crédito. En Pronto Finance, estamos dedicados a ayudarte a reconstruir tu crédito y ponerte al volante del auto que mereces.",
+        "header": "Sobre Nosotros",
+        "subheader": "Con un compromiso con el servicio personalizado, nuestro equipo trabaja estrechamente con cada cliente para encontrar soluciones de financiamiento flexibles y asequibles. Entendemos que la vida puede ser impredecible, y nuestro objetivo es brindarte una oportunidad para reconstruir tu crédito mientras conduces el auto que mereces. Ya sea que estés comprando tu primer vehículo o buscando una mejora, Pronto Finance está aquí para ayudarte a impulsar tus sueños.",
+        "pivots": {
+            "mission": {
+                "title": "Nuestra Misión",
+                "description": "En Pronto Finance, nuestra misión es hacer que el financiamiento de autos sea accesible para todos. Estamos comprometidos a ofrecer soluciones flexibles y un servicio personalizado, ayudando a nuestros clientes a alcanzar sus objetivos y avanzar en su futuro con confianza."
+            },
+            "commitment": {
+                "title": "Nuestro Compromiso",
+                "description": "Estamos dedicados a proporcionar financiamiento automotriz sin complicaciones que priorice tus necesidades. Nuestro compromiso es ofrecer soluciones flexibles, personalizadas y un servicio excepcional, asegurando que tengas el apoyo necesario en cada paso de tu camino."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "hours": "Horario de Operación",
+        "messageHeader": "Envíanos un Mensaje",
+        "messageContent": "¿Tienes una pregunta sobre tu cuenta o comentarios sobre nuestros servicios? ¡Nos encantaría saber de ti! Contáctanos aquí."
+    },
+    "dealers": {
+        "loginForm": {
+            "switchCustomer": "Iniciar Sesión como Cliente",
+            "switchDealer": "Iniciar Sesión como Concesionario",
+            "loginTitle": "Inicio de Sesión del Concesionario",
+            "emailLabel": "Correo Electrónico",
+            "passwordLabel": "Contraseña",
+            "loginLabel": "Iniciar Sesión",
+            "forgotPasswordLabel": "¿Olvidó su Contraseña?",
+            "createNewLabel": "Crear Nuevo"
+        },
+        "hero": {
+            "title": "Empoderando Concesionarios",
+            "subtitle": "Soluciones de Financiamiento Sin Complicaciones",
+            "detail": "Eleva tu Negocio con Nuestra Experiencia",
+            "action": "Iniciar Sesión",
+            "pivotText": "¿Eres concesionario?",
+            "pivotAction": "Inicia Sesión Aquí"
+        },
+        "title": "Bienvenido a Pronto Finance",
+        "description": "En Pronto Finance, nuestra misión es empoderar a individuos y empresas con soluciones de financiamiento accesibles, eficientes e innovadoras, impulsando el éxito y desbloqueando oportunidades para cada viaje.",
+        "stats": [
+            {
+                "title": "Concesionarios Atendidos",
+                "value": "6,500+"
+            },
+            {
+                "title": "En Operación Desde",
+                "value": "2006"
+            },
+            {
+                "title": "Promedio de Tiempo para Financiar",
+                "value": "48 Horas"
+            }
+        ],
+        "commitment": {
+            "title": "Nuestro Compromiso Contigo",
+            "description": "Con financiamiento rápido para autos y un equipo enfocado en tu éxito, estamos aquí para hacer que alcanzar tus objetivos sea simple y eficiente. Combinando experiencia con pensamiento innovador, creamos soluciones adaptadas a tus necesidades, apoyándote en cada paso del camino."
+        },
+        "pivots": [
+            {
+                "title": "Iniciar Sesión",
+                "description": "Inicia sesión en tu portal de Pronto Finance para gestionar aplicaciones y aumentar tus ventas fácilmente.",
+                "action": "Más Información",
+                "icon": "fas fa-sign-in-alt"
+            },
+            {
+                "title": "Descubre Más",
+                "description": "Asóciate con nosotros para obtener soluciones que impulsen el crecimiento y éxito de tu concesionario.",
+                "action": "Más Información",
+                "icon": "fas fa-info-circle"
+            }
+        ],
+        "learnForm": {
+            "title": "Conoce Más Sobre Pronto Finance",
+            "dealerName": "Nombre del Concesionario",
+            "dealerType": "Tipo de Concesionario",
+            "entityType": "Tipo de Entidad",
+            "openSince": "Abierto Desde",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "address": "Dirección",
+            "city": "Ciudad",
+            "state": "Estado",
+            "zip": "Código Postal",
+            "email": "Correo Electrónico",
+            "phone": "Teléfono",
+            "question1": "¿Cómo supiste de nosotros?",
+            "question2": "¿Ventas mensuales promedio?",
+            "submit": "Enviar"
+        },
+        "message": {
+            "header": "Conoce Más Sobre Pronto Finance",
+            "subheader": "¿Listo para elevar tu concesionario? Contáctanos para descubrir cómo Pronto Finance puede ayudarte a cerrar tratos más rápido y aumentar tus ventas con facilidad."
+        }
+    },
+    "contactBanner": {
+        "title": "¿Necesitas Asistencia? ¡Llámanos!",
+        "detail_primary": "Línea Primaria",
+        "detail_secondary": "Línea Heredada"
+    },
+    "header": {
+        "customer": "Para Clientes",
+        "dealer": "Para Concesionarios",
+        "vendor": "Relaciones con Proveedores",
+        "about": "Sobre Nosotros",
+        "contact": "Contáctanos",
+        "privacy": "Política de Privacidad",
+        "careers": "Carreras"
+    },
+    "blog": {
+        "more": "Leer Más"
+    },
+    "privacy": {
+        "text": "Pronto Finance reconoce que tu privacidad es importante y entendemos que te preocupa cómo se utiliza tu información. Pronto se compromete a ofrecer a nuestros clientes la mejor calidad y servicio. Este compromiso incluye proteger la privacidad de la información personal que compartes con nosotros. Puedes estar seguro de que contamos con medidas de seguridad para proteger tu información.<br><br><br>RECOLECCIÓN DE INFORMACIÓN<br><br>Gran parte de la información del cliente que tenemos sobre ti proviene directamente de ti cuando solicitas un préstamo. Recopilamos información personal (como tu nombre, dirección, número de teléfono, números de cuenta bancaria y de tarjeta de crédito, y otra información que proporcionas en tu solicitud de crédito) y verificamos dicha información. Utilizamos tu información para satisfacer tus necesidades de servicios financieros y productos relacionados. También usamos tu información para actualizar tu cuenta y garantizar una facturación adecuada.<br><br><br>DISTRIBUCIÓN DE INFORMACIÓN<br><br>Pronto no vende ni alquila información de identificación personal a empresas o entidades no afiliadas. Cierta información puede ser divulgada a terceros de confianza que nos ayuden en el procesamiento de tu solicitud de préstamo (por ejemplo, agencias de informes crediticios), pero solo según lo permita o exija la ley en respuesta a solicitudes gubernamentales legítimas, citaciones u órdenes judiciales. Aunque no lo hemos hecho hasta ahora, en el futuro podríamos contratar con empresas de confianza para ofrecerte servicios o productos financieros adicionales. Si no deseas que la información que proporcionas a Pronto se comparta con otras empresas no afiliadas, por favor llámanos al (847) 695-4900 o indica esta preferencia cuando proporciones tu información a Pronto, y respetaremos tu solicitud.<br><br><br>PROTECCIÓN DE LA CONFIDENCIALIDAD DE LA INFORMACIÓN<br><br>Mantenemos medidas de seguridad físicas, electrónicas y de procedimiento que cumplen con la ley para proteger tu información. Nuestro sitio web no rastrea, recopila ni distribuye información personal que los visitantes no ingresen. Registramos la fecha y hora de las visitas a nuestro sitio web y las páginas visitadas para determinar cuáles son las más consultadas y brindar una mejor experiencia a nuestros clientes y concesionarios. Restringimos el acceso a la información personal no pública sobre ti a aquellos empleados que necesitan esa información para realizar su trabajo relacionado con tu solicitud de préstamo. Todos los empleados con acceso a tu información personal están obligados a mantener la confidencialidad de esa información mientras estén empleados en Pronto y después de su separación de la empresa. Los empleados que no cumplan con esta confidencialidad están sujetos a medidas correctivas, incluida la terminación del empleo.<br><br><br>CÓMO SABER QUÉ INFORMACIÓN TENEMOS<br><br>Puedes solicitar revisar la información del cliente que tenemos sobre ti en nuestros registros. Si crees que la información está incompleta o es inexacta, puedes solicitar que hagamos las correcciones, adiciones o eliminaciones necesarias. Si tienes preguntas sobre nuestra Política de Privacidad y Seguridad, por favor contacta al Vicepresidente de Tecnología de la Información."
+    },
+    "cs": {
+        "title": {
+            "header": "Cliente",
+            "subheader": "Servicios que Ofrecemos"
+        },
+        "services": [
+            {
+                "title": "Financiamiento Flexible",
+                "description": "¡Hacemos que el financiamiento sea accesible para todos! Ya sea que tengas un ITIN, prefieras pagar en efectivo o tengas un crédito bajo, estamos aquí para ayudarte. Nuestras opciones flexibles están diseñadas para satisfacer tus necesidades, para que puedas conducir con confianza. ¡Permítenos hacer el proceso simple y libre de estrés para ti!"
+            },
+            {
+                "title": "Préstamos Personales",
+                "description": "Obtén el impulso financiero que necesitas, justo cuando lo necesitas. Nuestros préstamos personales están diseñados para apoyarte en los grandes momentos de la vida, ya sea consolidar deudas, cubrir gastos inesperados o planificar algo especial. Con tasas competitivas y términos flexibles, estamos aquí para ayudarte a lograr tus metas de manera asequible."
+            },
+            {
+                "title": "Opciones de Refinanciamiento",
+                "description": "Respira con tranquilidad con pagos más bajos y términos mejorados. Refinanciar con nosotros puede ayudarte a reducir los pagos mensuales, liquidar tu préstamo más rápido o acceder a fondos para otras prioridades financieras. Déjanos mostrarte cómo el refinanciamiento puede ser un paso inteligente hacia un futuro financiero más manejable y gratificante."
+            }
+        ],
+        "cta": {
+            "title": "¿Listo para dar el siguiente paso?",
+            "description": "¡Llámanos hoy para comenzar tu camino hacia la tranquilidad financiera!",
+            "action": "Contáctanos"
+        }
+    },
+    "ds": {
+        "title": {
+            "header": "Concesionario",
+            "subheader": "Servicios que Ofrecemos"
+        },
+        "services": [
+            {
+                "title": "Financiamiento Automotriz Rápido y Flexible",
+                "description": "Pronto Finance ofrece soluciones de financiamiento automotriz indirecto sin complicaciones, adaptadas a tus clientes. Con aprobaciones rápidas, términos competitivos y soporte para todos los perfiles crediticios, aseguramos un proceso fluido tanto para concesionarios como para compradores."
+            },
+            {
+                "title": "Opciones de Seguro Integral",
+                "description": "Amplía tus ofertas con Pronto Insurance, diseñado para satisfacer una variedad de necesidades de los clientes y mejorar el valor de tu concesionario.",
+                "action": "Conoce Más"
+            },
+            {
+                "title": "Soluciones Innovadoras para Concesionarios",
+                "description": "Aprovecha servicios adicionales como clientes preaprobados y opciones avanzadas de rastreo GPS para impulsar más ventas y mejorar la eficiencia operativa."
+            },
+            {
+                "title": "Garantías Personalizadas y Productos GAP",
+                "description": "Ofrece a tus clientes tranquilidad con nuestros Contratos de Servicio Vehicular (VSC) y Protección de Activos Garantizada (GAP) personalizados. Estos productos flexibles mejoran las ofertas de tu concesionario mientras aumentan el potencial de ingresos, integrándose perfectamente en tu modelo de negocio."
+            }
+        ],
+        "cta": {
+            "title": "¿Listo para asociarte con Pronto Finance?",
+            "description": "¡Conéctate con nosotros hoy y desbloquea las herramientas y servicios para hacer crecer el éxito de tu concesionario!",
+            "action": "Contáctanos"
+        },
+        "other": [
+            {
+                "title": "Préstamos en Volumen",
+                "description": "Accede a financiamiento flexible y confiable en volumen para satisfacer las necesidades de tu concesionario. Simplifica tus compras de inventario con términos competitivos y soporte personalizado diseñado para mantener tu negocio en funcionamiento."
+            },
+            {
+                "title": "Financiamiento POS",
+                "description": "Impulsa las ventas con nuestras opciones de financiamiento POS sin complicaciones. Permite a tus clientes obtener financiamiento en el momento y genera más transacciones con facilidad y eficiencia."
+            }
+        ]
+    },
+    "general": {
+        "slogan": "Tu socio de confianza en financiamiento automotriz, dedicado a ayudarte a impulsar tus sueños.",
+        "hoursLabel": "Horario de Operación",
+        "hours1": "Lun - Vie: 9:00am - 6:00pm CST",
+        "hours2": "Sáb: 9:00am - 2:00pm CST",
+        "contactLabel": "Contáctanos",
+        "followLabel": "Síguenos",
+        "telephoneLabel": "Teléfono",
+        "addressLabel": "Dirección",
+        "address": "1515 Woodfield Rd, Suite 103, Schaumburg, IL 60173",
+        "nameLabel": "Nombre",
+        "namePlaceholder": "Tu Nombre",
+        "dealershipLabel": "Concesionario",
+        "dealershipPlaceholder": "Nombre del Concesionario",
+        "emailLabel": "Correo Electrónico",
+        "emailPlaceholder": "Correo Electrónico",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Mensaje",
+        "sendLabel": "Enviar",
+        "emailShort": "Correo Electrónico"
+    },
+    "careers": {
+        "label": "Únete a Nuestro Equipo",
+        "description": "En Pronto Finance, siempre estamos en busca de personas apasionadas y talentosas que quieran marcar la diferencia. Si estás interesado en unirte a un equipo dinámico enfocado en el cliente y dedicado a ayudar a las personas a alcanzar sus metas financieras, ¡nos encantaría saber de ti!"
+    },
+    "departments": {
+        "label": "Departamentos",
+        "collections": "Cobranza",
+        "funding": "Financiamiento",
+        "sales": "Ventas",
+        "repossesions": "Reposesiones",
+        "claims": "Reclamos",
+        "buying": "Compras",
+        "operations": "Operaciones",
+         "general": "Consultas Generales"
+    }
+}

@@ -1,0 +1,155 @@
+---
+title: "Creative Corner After Dark"
+layout: base-dark
+meta:
+  title: After Dark - Creative Corner Collective
+  description: Join us for After Dark, a late-night event series that celebrates creativity and community. Experience live music, art, and more in a vibrant atmosphere.
+---
+
+<main class="page-afters">
+    {% set theme = "afterdark" %}
+    {% include "partials/header.njk" %}
+    <section class="px-4 sm:px-10 max-w-6xl mx-auto w-full text-center mt-10 flex flex-col items-center">
+      {% svg "ad-logo", "fill-yellow-500" %}
+
+      <div class="w-96 mb-5">
+        {% include "partials/toggle-switch.njk" %}
+      </div>
+
+      <div class="relative w-full">
+        <!-- Background SVG -->
+        <div class="absolute inset-0 -z-10 pointer-events-none">
+          {% svg "paper-cutout-afters", "w-full h-full object-fill" %}
+        </div>
+
+        <!-- Foreground content -->
+      <div class="p-6 sm:p-12 pt-16 sm:pt-24 flex flex-col items-center relative z-10">
+        <div class="w-full max-w-6xl px-4 flex flex-col items-center">
+          <div class="w-full md:w-9/12">
+            <h2 class="text-2xl font-caveat font-bold mb-4 text-center sm:text-left">Next Event</h2>
+      
+            <div class="flex flex-col sm:flex-row rounded-xl overflow-hidden shadow-lg">
+              <!-- Image and overlay text -->
+              <div class="relative w-full sm:w-2/3 h-64 sm:h-auto">
+                <img src="/assets/next-event.jpg" alt="Creative Corner Sessions" class="w-full h-full object-cover" />
+              </div>
+        
+              <!-- Event info + actions -->
+              <div class="bg-[#2B0030] w-full sm:w-1/3 p-6 flex flex-col justify-center items-center text-center space-y-4">
+                <p class="text-xl font-mono tracking-wide">May 30th, 2025</p>
+                <a href="/get-tickets/" class="bg-blue-400 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-blue-500 transition">
+                  Get Tickets
+                </a>
+                <!--
+                  <a href="#" class="text-blue-400 hover:underline text-sm tracking-wide">
+                    Find Out More
+                  </a>
+                -->
+              </div>
+            </div>
+          </div>
+      
+          <!-- Countdown timer -->
+          <div 
+            class="text-center mt-10 mb-10 text-yellow-500"
+            x-data="() => countdownTimer('2025-05-30T00:00:00')"
+            x-init="start()"
+          >
+            <h2 class="text-xl font-caveat mb-6">Vibes return in...</h2>
+      
+            <div class="flex justify-center flex-wrap gap-4 sm:gap-10 text-3xl font-bold font-[DM Sans]">
+              <div class="flex flex-col items-center">
+                <span x-text="String(time.days).padStart(2, '0')"></span>
+                <span class="text-sm font-normal tracking-wider uppercase">Days</span>
+              </div>
+              <div class="text-2xl mt-1 hidden sm:block">:</div>
+              <div class="flex flex-col items-center">
+                <span x-text="String(time.hours).padStart(2, '0')"></span>
+                <span class="text-sm font-normal tracking-wider uppercase">Hours</span>
+              </div>
+              <div class="text-2xl mt-1 hidden sm:block">:</div>
+              <div class="flex flex-col items-center">
+                <span x-text="String(time.minutes).padStart(2, '0')"></span>
+                <span class="text-sm font-normal tracking-wider uppercase">Minutes</span>
+              </div>
+              <div class="text-2xl mt-1 hidden sm:block">:</div>
+              <div class="flex flex-col items-center">
+                <span x-text="String(time.seconds).padStart(2, '0')"></span>
+                <span class="text-sm font-normal tracking-wider uppercase">Seconds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+      <section class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12 text-[#F8EFFF]">
+        <h3 class="text-2xl font-bold mb-4">Stay Late.</h3>
+        <p class="max-w-xl mx-auto">When the night descends, the vibes rise. After Dark is our late-night space for head-bobbing, boundary-pushing creativity. Come unwind, dance, or dive deep — this is where the night comes alive.</p>
+      </section>
+      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
+        <h3 class="text-xl font-bold text-center mb-6 text-[#F8EFFF]">Our Past Events</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {% include "partials/event-card-dark.njk" %}
+          {% include "partials/event-card-dark.njk" %}
+          {% include "partials/event-card-dark.njk" %}
+        </div>
+        <div class="text-center mt-4">
+          <a href="/events" class="text-yellow-400 hover:underline">Show All Events</a>
+        </div>
+      </section>
+      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
+        <h3 class="text-xl font-bold text-center mb-6 text-[#F8EFFF]">Artist Spotlight</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {% include "partials/artist-card-dark.njk" %}
+          {% set name = "Kim Anna" %}
+          {% include "partials/artist-card-dark.njk" %}
+        </div>
+      </section>
+      <div class="w-full relative overflow-hidden">
+        <div style="margin: 0 -100px;" class="absolute inset-y-0 inset-x-[-100px] -z-10 pointer-events-none">
+          {% svg "paper-cutout-afters", "w-full h-full object-fill" %}
+        </div>
+        <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 flex flex-col items-center relative z-10">
+          <h3 class="text-xl font-bold text-center mt-12 mb-8">Ready to Show Off Your Creativity?</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <p class="mb-4 caveat text-lg">CALLING ALL ARTISTS</p>
+              <p>We’re always looking for new voices, new sounds, and fresh creativity to join our growing community. Whether you sing, paint, write, play, or perform — we’d love to hear from you! Tell us a bit about your art. If it feels like a good fit, we’ll reach out to talk — mini conversation (think coffee chat, not job interview ☕️).</p>
+            </div>
+            <form x-data="{ email: '', message: '' }" action="https://formspree.io/f/mldbnjjb" method="POST" class="space-y-4 mb-48">
+              <input type="text" placeholder="Name" class="w-full p-2 border rounded text-black" />
+            
+              <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded text-black"
+                     x-model="email" required />
+            
+              <textarea name="message" placeholder="Tell Us About Yourself"
+                        class="w-full p-2 border rounded text-black" x-model="message" required></textarea>
+            
+                  <button type="submit"
+                        :disabled="!email || !message"
+                        :class="(!email || !message)
+                          ? 'bg-yellow-300 text-white cursor-not-allowed opacity-60'
+                          : 'bg-yellow-500 text-white hover:bg-yellow-600'"
+                        class="w-full px-4 py-2 rounded transition text-black">
+                  Submit
+                </button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
+        <h3 class="text-xl font-bold text-center mb-4 text-[#F8EFFF]">Signup for our Newsletter!</h3>
+        <form class="w-full space-y-4">
+          <input type="text" placeholder="Name" class="w-full p-2 border rounded text-black" />
+          <input type="email" placeholder="Email" class="w-full p-2 border rounded text-black" />
+          <button class="bg-yellow-400 text-black px-4 py-2 rounded w-full">Submit</button>
+        </form>
+      </section>
+      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 text-center">
+        <h4 class="text-md font-bold mb-2 text-[#F8EFFF]">Supporters</h4>
+        <img src="/assets/diamond-dogs-logo.png" alt="Diamond Dogs Logo" class="mx-auto h-16" />
+      </section>
+</main>

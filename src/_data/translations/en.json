@@ -1,0 +1,356 @@
+{
+    "quicklinks" : {
+        "title" : "Quicklinks",
+        "faq" : "FAQ",
+        "departments" : "Departments",
+        "login" : "Login"
+    },
+    "quicklinksDealer" : {
+        "title" : "Quicklinks",
+        "info" : "More Info",
+        "signup" : "Dealer Signup",
+        "login" : "Login"
+    },
+    "language" : {
+        "english" : "English",
+        "spanish" : "Spanish",
+        "russian" : "Russian",
+        "polish" : "Polish",
+        "ukranian" : "Ukranian"
+    },
+    "index" : { 
+        "header" : {
+            "customer" : "For Customers",
+            "dealer" : "For Dealers",
+            "about" : "About Us",
+            "contact" : "Contact Us",
+            "privacy" : "Privacy Policy",
+            "careers" : "Careers"
+        },
+        "quicklinks" : {
+            "request" : "Request Info",
+            "signup" : "Dealer Signup",
+            "payoff" : "Payoff Quote"
+        },
+        "loginForm" : {
+            "title" : "Customer Login",
+            "emailLabel" : "Email",
+            "passwordLabel" : "Password",
+            "loginLabel" : "Login",
+            "forgotPasswordLabel" : "Forgot Password?",
+            "createNewLabel" : "Create New"
+        },
+        "hero": {
+            "title" : "Manage your Account with Ease",
+            "subtitle" : "Make a payment or login to your account",
+            "or" : "or",
+            "detail" : "Call (888) 402-5212",
+            "action" : "Login",
+            "pivotText" : "Are you a dealer?",
+            "pivotAction" : "Login Here"
+        },
+        "actionBubbles" : [
+            {
+                "title" : "Pay Online",
+                "description" : "Conveniently make payments online with our secure platform.",
+                "action" : "Get Started"
+            },
+            {
+                "title" : "Get Assistance",
+                "description" : "Need help? Our support team is here to assist you with any questions or concerns.",
+                "action" : "Contact Us"
+            },
+            {
+                "title" : "Find Out More",
+                "description" :"Discover more about our services and what we can offer you.",
+                "action" : "More Info"
+            }
+            ],
+        "promise" : {
+            "title" : "Our Promise to You",
+            "description" : "Applying for a loan and establishing credit can be frustrating and overly complicated. At Pronto, our friendly staff promises to make the process as simple and quick as possible — the \"Pronto way.\" Whether you're buying a car, furniture, or just need a loan, we’re here to help.",
+            "quote" : "Applying for a loan doesn’t have to be complicated"
+        },
+        "pivots" : {
+            "customer" : {
+                "title" : "For Customers",
+                "description" : "Access your customer account to manage orders, view your purchase history, and find personalized support.",
+                "action" : "Login",
+                "icon" : "fa-solid fa-user"
+            },
+            "dealer" : {
+                "title" : "For Dealers",
+                "description" : "Log in to your dealer portal to manage inventory, access resources, and view exclusive dealer support.",
+                "action" : "Login",
+                "icon" : "fa-solid fa-briefcase"
+            }
+        },
+        "stats" : [
+            {
+                "title" : "Customers Serviced",
+                "value" : "60K"
+            },
+            {
+                "title" : "Loans Funded",
+                "value" : "200 Million"
+            },
+            {
+                "title" : "Operating Since",
+                "value" : "2006"
+            }
+        ],
+        "info" : [
+            {
+                "title" : "No Hassle Lending",
+                "value" : "If you need to establish or repair credit, if you have a new job, or if you have never applied for a loan before, Pronto is here to work with you. We understand that life can be complicated, so we’ve made applying for a Pronto loan hassle-free.",
+                "svgName" : "money-receive"
+            },
+            {
+                "title" : "Equal Credit Opportunity",
+                "value" : "Pronto does not discriminate on the basis of race, color, sex, religion, national origin, marital status, age (provided the applicant has the legal capacity to enter into a binding contract); public income assistance status; or because the applicant has in good faith exercised any right under a consumer protection law; or because of any other legally protected status.",
+                "svgName" : "harmony"
+            },
+            {
+                "title" : "AFSA Member",
+                "value" : "Pronto is proud to be a member of the American Financial Services Association (AFSA). <a class='pf-link' target='_blank' rel='noopener noreferrer' href='https://www.afsaonline.org'>AFSA</a> is the national trade association for the consumer credit industry, protecting access to credit and consumer choice. The Association encourages and maintains ethical business practices and supports financial education for consumers of all ages.",
+                "svgName" : "afsa-membership"
+            }
+        ],
+        "faq" : [
+            {
+                "question" : "What types of loans do you offer?",
+                "answer" : "We specialize in auto loans, offering financing solutions for those looking to purchase or refinance a used vehicle. Our services are designed to support a range of financial situations, so we can help you get back on the road confidently."
+            },
+            {
+                "question" : "Can I still qualify if I have less-than-perfect credit?",
+                "answer" : "Yes! We work with customers from various financial backgrounds. Our goal is to provide financing options for those with diverse credit histories, so don’t hesitate to reach out and see how we can help."
+            },
+            {
+                "question" : "How quickly can my dealership receive a loan decision?",
+                "answer" : "We strive to provide fast approvals, often within the same business day. Using our exclusive dealer portal, you can submit applications quickly and track their progress in real-time. After your application is reviewed, we’ll reach out with the next steps."
+            }
+        ]
+
+    },
+    
+    "about" : {
+        "title" : "Help you move forward",
+        "subtitle" : "We specialize in flexible, affordable subprime auto loans, offering a second chance to those with credit challenges. At Pronto Finance, we're dedicated to helping you rebuild your credit and get behind the wheel of the car you deserve.",
+        "header" : "About Us",
+        "subheader" : "With a commitment to personalized service, our team works closely with each customer to find flexible and affordable financing solutions. We understand that life can be unpredictable, and our goal is to provide an opportunity for you to rebuild your credit while driving the car you deserve. Whether you’re purchasing your first vehicle or looking to upgrade, Pronto Finance is here to help drive your dreams forward.",
+        "pivots" : {
+            "mission" : {
+                "title" : "Our Mission",
+                "description" : "At Pronto Finance, our mission is to make auto financing accessible for everyone. We’re committed to offering flexible solutions and personalized service, helping our customers achieve their goals and drive their futures forward with confidence."
+            },
+            "commitment" : {
+                "title" : "Our Commitment",
+                "description" : "We are dedicated to providing seamless, stress-free auto financing that puts your needs first. Our commitment is to offer flexible, personalized solutions and exceptional service, ensuring you have the support you need at every step of your journey."
+            }
+        }
+    },
+    "contact" : {
+        "title" : "Contact Us",
+        "hours" : "Hours of Operation",
+        "messageHeader" : "Send us a Message",
+        "messageContent" : "Have a question about your account or feedback on our services? We'd love to hear from you! Reach out to us here."
+    },
+    "dealers" : {
+        "loginForm" : {
+            "switchCustomer" : "Login as Customer",
+            "switchDealer" : "Login as Dealer",
+            "loginTitle" : "Dealer Login",
+            "emailLabel" : "Email",
+            "passwordLabel" : "Password",
+            "loginLabel" : "Login",
+            "forgotPasswordLabel" : "Forgot Password?",
+            "createNewLabel" : "Create New"
+        },
+        "hero": {
+            "title" : "Empowering Dealerships",
+            "subtitle" : "Seamless Financing Solutions",
+            "detail" : "Elevate Your Business with Our Expertise",
+            "action" : "Login",
+            "pivotText" : "Are your a dealer?",
+            "pivotAction" : "Login Here"
+        },
+        
+        "title" : "Welcome to Pronto Finance",
+        "description" : "At Pronto Finance, our mission is to empower individuals and businesses with accessible, efficient, and innovative financing solutions, driving success and unlocking opportunities for every journey.",
+        "stats" : [
+            {
+                "title" : "Dealerships Serving",
+                "value" : "6,500+"
+            },
+            {
+                "title" : "Operating Since",
+                "value" : "2006"
+            },
+            {
+                "title" : "Avg. Time to Fund",
+                "value" : "48 Hours"
+            }
+        ],
+        "commitment" : {
+            "title" : "Our Commitment to You",
+            "description" : "With fast auto financing and a team focused on your success, we’re here to make achieving your goals simple and efficient. Combining experience with innovative thinking, we create solutions tailored to your needs, supporting you every step of the way."
+        },
+        "pivots" : [
+            {
+                "title" : "Login",
+                "description" : "Log in to your Pronto Finance portal to manage applications and drive sales with ease.",
+                "action" : "More Info",
+                "icon" : "fas fa-sign-in-alt"
+            },
+            {
+                "title" : "Find Out More",
+                "description" : "Partner with us for solutions that empower your dealership's growth and success.",
+                "action" : "More Info",
+                "icon" : "fas fa-info-circle"
+            }
+        ],
+        "learnForm" : {
+            "title" : "Learn More About Pronto Finance",
+            "dealerName" : "Dealership Name",
+            "dealerType" : "Dealer Type",
+            "entityType" : "Entity Type",
+            "openSince" : "openSince",
+            "firstName" : "First Name",
+            "lastName" : "lastName",
+            "address" : "Address",
+            "city" : "City",
+            "state" : "State",
+            "zip" : "Zip",
+            "email" : "Email",
+            "phone" : "Phone",
+            "question1" : "How did you hear about us?",
+            "question2" : "Monthly sales per month?",
+            "submit" : "Submit"
+        },
+        "message" : {
+            "header" : "Learn More About Pronto Finance",
+            "subheader" : "Ready to elevate your dealership? Contact us to discover how Pronto Finance can help you close deals faster and drive more sales with ease."
+        }
+    },
+    "contactBanner" : {
+        "title" : "Need Assistance? Call Us!",
+        "detail_primary" : "Primary Line",
+        "detail_secondary" : "Legacy Line"
+    },
+    "header" : {
+        "customer" : "For Customers",
+        "dealer" : "For Dealers",
+        "vendor" : "Vendor Relations",
+        "about" : "About Us",
+        "contact" : "Contact Us",
+        "privacy" : "Privacy Policy",
+        "careers" : "Careers"
+    },
+    "blog" : {
+        "more" : "Read More"
+    },
+    "privacy" : {
+        "text": "Pronto Finance recognizes that your privacy is important and we understand that you care about how your information is used. Pronto is committed to providing our customers with the finest quality and service. This commitment includes protecting the privacy of the personal information that you share with us. You can be confident that we have safeguards in place to protect your information.<br><br><br>COLLECTION OF INFORMATION<br><br>Much of the customer information that we have about you comes directly from you when you apply for a loan. We collect personal information (such as your name, address, telephone number, bank and credit card account numbers and other information you provide on your credit application) and verification of such information. We use your customer information in order to fulfill your need for financial services and related products. We also use your customer information to update your account and insure proper billing.<br><br><br>DISTRIBUTION OF INFORMATION<br><br>Pronto does not sell or lease personally identifying information to nonaffiliated companies or entities. Certain information may be disclosed to reputable third parties assisting us in the processing of your loan application (e.g., credit reporting agencies), but only as lawfully permitted or required in response to legitimate governmental requests, subpoenas or court orders. While we have not done so at this time, in the future we may contract with reputable companies in our efforts to offer you additional financial services or products. If you do not want the information you provide to Pronto to be shared with other non-affiliated companies, please call us at (847) 695-4900 or indicate this preference when you provide your information to Pronto and we will honor your request.<br><br><br>PROTECTING CONFIDENTIALITY OF INFORMATION<br><br>We maintain physical, electronic and procedural safeguards that comply with the law to protect your information. Our website does not track, collect or distribute personal information not entered by visitors. We record the date and time of visits to our website and pages visited to determine which pages are visited the most and provide a better experience for our customers and dealers. We restrict access to nonpublic personal information about you to those employees who need to know that information to perform their job related to your loan application. All employees with access to your personal information are required to maintain the confidentiality of that information while employed with Pronto and upon their separation therefrom. Employees who fail to maintain this confidentiality are subject to corrective action, including termination of employment.<br><br><br>HOW TO FIND OUT WHAT INFORMATION WE HAVE<br><br>You may request to review the customer information we have about you in our records. If you believe that the information is incomplete or inaccurate, you may request that we make any necessary corrections, additions or deletions to the information. If you have questions regarding our Privacy & Security Policy, please contact the Vice President of Information Technology."
+    },
+    "cs" : {
+        "title" : {
+            "header" : "Customer",
+            "subheader" : "Services We Offer"
+        },
+        "services" : [
+            {
+                "title" : "Flexible Financing",
+                "description" : "We make financing accessible for everyone! Whether you have an ITIN, prefer to pay in cash, or have lower credit, we’re here to help. Our flexible options are designed to meet your needs, so you can drive away with confidence. Let us make the process simple and stress-free for you!"
+            },
+            {
+                "title" : "Personal Loans",
+                "description" : "Get the financial boost you need, right when you need it. Our personal loans are designed to support you through life’s big moments, whether you're consolidating debt, covering unexpected expenses, or planning something special. With competitive rates and flexible terms, we're here to help make your goals achievable and affordable."
+            },
+            {
+                "title" : "Refinancing Options",
+                "description" : "Breathe easier with lower payments and improved terms. Refinancing with us can help you reduce monthly payments, pay off your loan faster, or access funds for other financial priorities. Let us show you how refinancing can be a smart step toward a more manageable and rewarding financial future."
+            }
+        ],
+        "cta" : {
+            "title" : "Ready to take the next step?",
+            "description" : "Call us today to get started on your journey to financial peace of mind!",
+            "action" : "Contact Us"
+        }
+    },
+    "ds" : {
+        "title" : {
+            "header" : "Dealer",
+            "subheader" : "Services We Offer"
+        },
+        "services" : [
+            {
+                "title" : "Fast & Flexible Auto Financing",
+                "description" : "Pronto Finance delivers seamless indirect auto financing solutions tailored for your customers. With quick approvals, competitive terms, and support for all credit profiles, we ensure a smooth process for both dealers and buyers."
+            },
+            {
+                "title" : "Comprehensive Insurance Options",
+                "description" : "Expand your offerings with Pronto Insurance, designed to meet a variety of customer needs and enhance your dealership's value.",
+                "action" : "Learn More"
+            },
+            {
+                "title" : "Innovative Dealer Solutions",
+                "description" : "Take advantage of additional services like pre-approved leads and advanced GPS tracking options to drive more sales and improve operational efficiency."
+            },
+            {
+                "title" : "Custom Warranty & GAP Products",
+                "description" : "Offer your customers peace of mind with our custom-designed Vehicle Service Contracts (VSC) and Guaranteed Asset Protection (GAP). These flexible backend products enhance your dealership’s offerings while boosting revenue potential, seamlessly fitting into your business model."
+            }
+        ],
+        "cta" : {
+            "title" : "Ready to partner with Pronto Finance?",
+            "description" : "Connect with us today and unlock the tools and services to grow your dealership's success!",
+            "action" : "Contact Us"
+        },
+        "other" : [
+            {
+                "title" : "Bulk Loans",
+                "description" : "Access flexible and reliable bulk loan financing to meet your dealership's needs. Simplify your inventory purchases with competitive terms and tailored support designed to keep your business running smoothly."
+            },
+            {
+                "title" : "POS Financing",
+                "description" : "Boost sales with our seamless POS financing options. Empower your customers to secure on-the-spot financing and drive more transactions with ease and efficiency."
+            }
+        ]
+    },
+    "general" : {
+        "slogan" : "Your trusted partner in auto financing, dedicated to helping you drive your dreams forward.",
+        "hoursLabel" : "Hours of Operation",
+        "hours1" : "Mon - Fri: 9:00am - 6:00pm CST",
+        "hours2" : "Sat: 9:00am - 2:00pm CST",
+        "contactLabel" : "Contact Us",
+        "followLabel" : "Follow Us",
+        "telephoneLabel" : "Phone",
+        "addressLabel" : "Address",
+        "address" : "1515 Woodfield Rd, Suite 103, Schaumburg, IL 60173",
+        "nameLabel" : "Name",
+        "namePlaceholder" : "Your Name",
+        "dealershipLabel" : "Dealership",
+        "dealershipPlaceholder" : "Dealership Name",
+        "emailLabel" : "Email",
+        "emailPlaceholder" : "Email",
+        "messageLabel" : "Message",
+        "messagePlaceholder" : "Message",
+        "sendLabel" : "Send",
+        "emailShort" : "Email"
+    },
+    "careers" : {
+        "label" : "Join Our Team",
+        "description" : "At Pronto Finance, we're always on the lookout for passionate, talented individuals who want to make a difference. If you’re interested in joining a dynamic, customer-focused team dedicated to helping people achieve their financial goals, we’d love to hear from you!"
+    },
+    "departments" : {
+        "label" : "Departments",
+        "collections" : "Collections",
+        "funding" : "Funding",
+        "sales" : "Sales",
+        "repossesions" : "Repossessions",
+        "claims" : "Claims",
+        "buying": "Buying",
+        "operations" : "Operations",
+        "general" : "General Inquiries" 
+    }
+}

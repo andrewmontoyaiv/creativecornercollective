@@ -1,0 +1,42 @@
+{
+  "name": "11ty-alpine-vite-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve",
+    "serve": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch",
+    "build": "npx @11ty/eleventy",
+    "build:preproduction": "npx @11ty/eleventy",
+    "build:sprite": "svg-sprite -d ./src/assets/icons/* --dest ./src/assets/sprites",
+    "clean": "del-cli _site",
+    "prepend": "gulp update-paths"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "del-cli": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "gulp": "^5.0.0",
+    "gulp-replace": "^1.1.4",
+    "js-yaml": "^4.1.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "@alpinejs/collapse": "^3.14.3",
+    "@alpinejs/intersect": "^3.14.3",
+    "@tailwindcss/typography": "^0.5.15",
+    "alpinejs": "^3.12.0",
+    "svg-sprite": "^2.0.4"
+  }
+}

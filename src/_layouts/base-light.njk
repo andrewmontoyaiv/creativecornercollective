@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% favicon "./src/assets/images/logo-tiny.svg" %}
+    <title>{{ site.title }} - {{ title or meta.title }}</title>
+    {% include "meta.njk" %}
+    <script type="module" src="{{ '/assets/js/index.js' | url }}"></script>
+    <script src="https://kit.fontawesome.com/d36c9d338e.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-[#f9f8f3] text-[#2d2d2d]">
+    {{ content | safe }}
+    {% include "partials/footer-light.njk" %}
+  </body>
+</html>

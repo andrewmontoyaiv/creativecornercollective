@@ -1,0 +1,65 @@
+---
+title: "About Us - CCC"
+layout: base-light
+meta:
+  title: About Us
+  description: Discover the story behind Creative Corner Collective — a community celebrating music, art, and self-expression through immersive monthly events.
+---
+
+<main>
+    {% set theme = "main" %}    
+    {% include "partials/header.njk" %}
+    <section class="px-4 sm:px-10 max-w-6xl mx-auto w-full text-center mt-10 flex flex-col items-center">
+
+      <div class="relative w-full">
+        <!-- Background SVG -->
+        <div class="absolute inset-0 -z-10 pointer-events-none">
+          {% svg "paper-cutout", "w-full h-full object-fill fill-gray-200" %}
+        </div>
+    
+        <!-- Foreground content -->
+        <div class="p-6 sm:p-12 pt-16 sm:pt-24 flex flex-col items-center relative z-10">
+          <div class="w-full max-w-6xl px-4 flex flex-col items-center">
+            <h2 class="text-3xl md:text-4xl font-caveat font-bold mb-4">About Us</h2>
+            <p class="text-lg text-gray-700 mb-6">
+              Creative Corner Collective is a community-driven space where music, art, and human connection thrive. We host intimate monthly gatherings that spotlight emerging talent, encourage collaboration, and spark creativity in a safe, inclusive environment.
+            </p>
+            <p class="text-base text-gray-600 mt-12 mb-6">
+              Whether you're a performer, artist, or supporter, our events are designed to feel like home — a space to share, express, and grow together. We believe creativity flourishes when people feel seen, heard, and welcomed.
+            </p>
+          </div>
+        </div>
+  
+  
+  
+      </div>
+    </section>
+
+    <section class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12">
+        <h3 class="text-2xl font-bold mb-4">Members</h3>
+
+        <div class="mt-4 space-y-16">
+
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-48 h-48 bg-white rounded shadow-md"></div>
+                <div class="text-center md:text-left">
+                  <h4 class="text-sm text-gray-500 uppercase tracking-wide font-semibold font-nunito">Co-Founder</h4>
+                  <h3 class="text-xl font-bold font-nunito">Andrew Montoya</h3>
+                  <p class="text-gray-600 font-nunito">With a background in tech, design, and visual storytelling, I’ve always loved building creative experiences. Community building is new for me, but it’s quickly become something I care deeply about. At Creative Corner, I focus on the behind-the-scenes work. Making things look good, run smoothly, and feel intentional.</p>
+                </div>
+              </div>
+              
+              <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                <div class="w-48 h-48 bg-white rounded shadow-md"></div>
+                <div class="text-center md:text-right">
+                  <h4 class="text-sm text-gray-500 uppercase tracking-wide font-semibold font-nunito">Co-Founder</h4>
+                  <h3 class="text-xl font-bold font-nunito">Kristen Faith Montoya</h3>
+                  <p class="text-gray-600 font-nunito">Musician, heart of the sound, and co-architect of the vibe. Every set flows through her spirit.</p>
+                </div>
+              </div>
+      
+            <!-- End loop -->
+          </div>
+    </section>
+  
+</main>
