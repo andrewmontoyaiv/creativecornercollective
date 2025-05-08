@@ -23,14 +23,15 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="About Us - CCC">
 <meta name="twitter:description" content="Discover the story behind Creative Corner Collective — a community celebrating music, art, and self-expression through immersive monthly events."><link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:wght@400;500&family=Jura:wght@600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/de733547fa9c8b67576ad1cc1/1b31b1928eeb9aa7998021208.js");</script>
 
 
 
 
     
     <script src="https://kit.fontawesome.com/d36c9d338e.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-ecaa7e68.js"></script>
-    <link rel="stylesheet" href="/assets/index-47f0cb41.css">
+    <script type="module" crossorigin src="/assets/index-61aecf63.js"></script>
+    <link rel="stylesheet" href="/assets/index-5c3e12fc.css">
   </head>
   <body class="bg-[#f9f8f3] text-[#2d2d2d]">
     
@@ -38,7 +39,7 @@
         
     
 
-<nav x-data="{ mobileMenuIsOpen: false }" x-on:click.away="mobileMenuIsOpen = false" class="flex items-center justify-between px-6 py-4 border-b border-gray-300" aria-label="creative corner menu">
+<nav x-data="{ mobileMenuIsOpen: false }" x-on:click.away="mobileMenuIsOpen = false" class="sticky top-0 z-30 flex items-center justify-between px-6 py-4 border-b border-gray-300 bg-inherit" aria-label="creative corner menu">
 
     <div class="flex">
         <!-- Brand Logo -->
@@ -61,7 +62,7 @@
 
 
   <!-- Mobile Menu Button -->
-  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6 z-30' : null" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10" aria-label="mobile menu" aria-controls="mobileMenu">
+  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6' : null" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10 z-40" aria-label="mobile menu" aria-controls="mobileMenu">
     <svg x-cloak x-show="!mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
@@ -71,7 +72,7 @@
   </button>
 
   <!-- Mobile Menu -->
-  <ul x-cloak x-show="mobileMenuIsOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-y-full" x-transition:enter-end="translate-y-0" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full" class="fixed max-h-svh overflow-y-auto inset-x-0 top-0 z-20 flex flex-col rounded-b-radius border-b px-8 pb-6 pt-10  'border-gray-300 bg-white text-black' sm:hidden shadow-2xl">
+  <ul x-cloak x-show="mobileMenuIsOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="-translate-y-full" x-transition:enter-end="translate-y-0" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full" class="fixed max-h-svh overflow-y-auto inset-x-0 top-0 z-30 flex flex-col rounded-b-radius border-b px-8 pb-6 pt-10  'border-gray-300 bg-white text-black' sm:hidden shadow-2xl">
 
     <li class="mb-4">
       <a href="/" class="w-48 block">
@@ -83,6 +84,18 @@
     <li class="p-2"><a href="/" class="text-lg font-bold hover:underline">Creative Corner</a></li>
     <li class="p-2"><a href="/afters/" class="text-lg font-bold hover:underline">After Dark</a></li>
     
+
+    <div class="w-full p-2 text-gray-400">
+        <div class="my-6">
+    <svg width="100%" height="2" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="1" x2="100%" y2="1" stroke="currentColor" stroke-width="2" stroke-dasharray="25 25" />
+    </svg>
+</div>
+    </div>
+    <li class="p-2"><a href="/about-us/" class="text-lg font-bold hover:underline">About Us</a></li>
+    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline">Get Tickets</a></li>
+
+
   </ul>
 </nav>
     <section class="px-4 sm:px-10 max-w-6xl mx-auto w-full text-center mt-10 flex flex-col items-center">
