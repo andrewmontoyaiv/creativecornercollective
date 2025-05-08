@@ -247,6 +247,7 @@ module.exports = function(eleventyConfig) {
       layouts: "_layouts" // this path is releative to input-path (src/)
 
     },
+    pathPrefix: "/",
     templateFormats: ["njk", "md"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",

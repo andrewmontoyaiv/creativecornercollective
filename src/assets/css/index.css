@@ -129,40 +129,6 @@
   }
 
 
-
-
 }
 
 
-
-
-/* .pf-hero-img picture {
-  width: 100%;
-  position: relative;
-}
-
-.pf-hero-img img {
-  object-position: bottom;
-  object-fit: fill;
-  width: 100%;
-}
-
-@media (max-width: 639px) {
-  .pf-img-responsive > * {
-    @apply h-full
-  }
-
-  .pf-img-responsive img {
-    @apply h-full
-  }
-
-  .pf-hero-img img {
-    object-position: bottom;
-    object-fit: cover;
-    width: auto;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    height: 100%;
-  }
-} */

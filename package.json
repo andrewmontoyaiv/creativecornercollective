@@ -12,7 +12,8 @@
     "build:preproduction": "npx @11ty/eleventy",
     "build:sprite": "svg-sprite -d ./src/assets/icons/* --dest ./src/assets/sprites",
     "clean": "del-cli _site",
-    "prepend": "gulp update-paths"
+    "prepend": "gulp update-paths",
+    "deploy": "npm run build && gh-pages -d _site"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "autoprefixer": "^10.4.14",
     "del-cli": "^5.0.0",
     "dotenv": "^16.0.3",
+    "gh-pages": "^6.3.0",
     "gulp": "^5.0.0",
     "gulp-replace": "^1.1.4",
     "js-yaml": "^4.1.0",
