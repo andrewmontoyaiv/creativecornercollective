@@ -23,24 +23,33 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Creative Corner Collective">
 <meta name="twitter:description" content="Creative Corner is a monthly gathering for artists, dreamers, and doers to share their work, connect with community, and vibe in a space built on creativity and good energy."><link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:wght@400;500&family=Jura:wght@600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/de733547fa9c8b67576ad1cc1/1b31b1928eeb9aa7998021208.js");</script>
 
 
 
 
     
     <script src="https://kit.fontawesome.com/d36c9d338e.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-883762bf.js"></script>
-    <link rel="stylesheet" href="/assets/index-641c1cda.css">
+    <script type="module" crossorigin src="/assets/index-769d2023.js"></script>
+    <link rel="stylesheet" href="/assets/index-bd6ae381.css">
   </head>
-  <body class="bg-[#f9f8f3] text-[#2d2d2d]">
+  <body 
+    x-data="{ fadeOut: false }"
+    x-init="$el.classList.add('fade-in')"
+    :class="{ 'fade-out': fadeOut }"
+    class="
+      transition-all duration-300 opacity-0
+      bg-[#f9f8f3] text-[#2d2d2d]
+    "
+  >
+
+
     
 
 <main class="relative scroll-smooth">
       
   
 
-<nav x-data="{ mobileMenuIsOpen: false }" x-on:click.away="mobileMenuIsOpen = false" class="sticky top-0 z-30 flex items-center justify-between px-6 py-4 border-b border-gray-300 bg-[#f9f8f3]" aria-label="creative corner menu">
+<nav x-data="{ mobileMenuIsOpen: false }" x-on:click.away="mobileMenuIsOpen = false" class="shadow-md md:shadow-none sticky top-0 z-30 flex items-center justify-between px-6 py-4 border-b border-gray-300 bg-[#f9f8f3]" aria-label="creative corner menu">
 
     <div class="flex">
         <!-- Brand Logo -->
@@ -129,25 +138,35 @@
 >
   <!-- Creative Corner Button -->
   <a 
-    href="/"
-    class="flex-1 text-center px-4 py-2 font-caveat text tracking-wide"
-    :class="selected === 'creative' 
-      ? 'bg-blue-400 text-white' 
-      : 'bg-transparent text-yellow-400 border-r border-yellow-400'"
-  >
-    Creative Corner
-  </a>
+  href="/"
+  @click.prevent="
+    fadeOut = true;
+    const link = $event.currentTarget.getAttribute('href');
+    setTimeout(() => window.location = link, 200);
+  "
+  class="flex-1 text-center px-4 py-2 text tracking-wide"
+  :class="selected === 'creative' 
+    ? 'bg-blue-400 text-white' 
+    : 'bg-transparent text-yellow-400 border-r border-yellow-400'"
+>
+  Creative Corner
+</a>
 
-  <!-- After Dark Button -->
-  <a 
-    href="/afters/"
-    class="flex-1 text-center px-4 py-2 font-caveat text tracking-wide"
-    :class="selected === 'afterdark' 
-      ? 'bg-yellow-300 text-black' 
-      : 'bg-white text-blue-400 border-l border-blue-400'"
-  >
-    After Dark
-  </a>
+<!-- After Dark Button -->
+<a 
+  href="/afters/"
+  @click.prevent="
+    fadeOut = true;
+    const link = $event.currentTarget.getAttribute('href');
+    setTimeout(() => window.location = link, 200);
+  "
+  class="flex-1 text-center px-4 py-2 text tracking-wide"
+  :class="selected === 'afterdark' 
+    ? 'bg-yellow-300 text-black' 
+    : 'bg-white text-blue-400 border-l border-blue-400'"
+>
+  After Dark
+</a>
 </div>
     </div>
   
@@ -228,19 +247,21 @@
     <p class="max-w-xl mx-auto">Creative Corner Collective is a vibrant community space where artists, musicians, and visionaries come together to share music and good vibes. Whether you’re here to celebrate self-expression, foster meaningful connection, or ignite collaborative creativity — welcome.</p>
   </section>
 
-  <section id="socials" class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12">
+  
+
+<section id="socials" class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12">
   
     <div class="flex justify-center gap-8 text-3xl">
-      <a href="https://instagram.com/yourhandle" target="_blank" class="transition-transform hover:scale-110 text-pink-500 hover:text-pink-600">
+      <a href="https://www.instagram.com/creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-pink-500 hover:text-pink-600">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://tiktok.com/@yourhandle" target="_blank" class="transition-transform hover:scale-110 text-black hover:text-gray-800">
+      <a href="https://www.tiktok.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-black hover:text-gray-800">
         <i class="fab fa-tiktok"></i>
       </a>
-      <a href="https://facebook.com/yourhandle" target="_blank" class="transition-transform hover:scale-110 text-blue-600 hover:text-blue-700">
+      <a href="https://youtube.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-blue-600 hover:text-blue-700">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="https://youtube.com/@yourhandle" target="_blank" class="transition-transform hover:scale-110 text-red-600 hover:text-red-700">
+      <a href="https://youtube.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-red-600 hover:text-red-700">
         <i class="fab fa-youtube"></i>
       </a>
     </div>
@@ -462,7 +483,10 @@ You’re now subscribed! 🎉
 </main>
 
 
-    <footer class="mt-12 py-8 text-center border-t border-gray-300">
+
+
+    
+      <footer class="mt-12 py-8 text-center border-t border-gray-300">
     <img src="/assets/logo-main-efe0f62e.png" alt="Creative Corner Collective Logo" class="h-12 mx-auto mb-4" />
     <nav class="mb-4">
       <a href="/about-us/" class="mx-2 hover:underline">About</a>
@@ -475,5 +499,8 @@ You’re now subscribed! 🎉
     </nav>
     <p class="text-sm">&copy;2025 Creative Corner Collective</p>
   </footer>
+    
+
+    
   </body>
 </html>
