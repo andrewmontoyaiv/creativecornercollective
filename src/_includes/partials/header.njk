@@ -1,6 +1,6 @@
 {% set isAfterDark = theme == "afterdark" %}
 
-<nav x-data="{ mobileMenuIsOpen: false }" x-on:click.away="mobileMenuIsOpen = false" class="sticky top-0 z-30 flex items-center justify-between px-6 py-4 border-b {% if isAfterDark %}border-purple-800 bg-purple-800{% else %}border-gray-300 bg-inherit{% endif %}" aria-label="creative corner menu">
+<nav x-data="{ mobileMenuIsOpen: false }" x-on:click.away="mobileMenuIsOpen = false" class="sticky top-0 z-30 flex items-center justify-between px-6 py-4 border-b {% if isAfterDark %}border-purple-800 bg-purple-800{% else %}border-gray-300 bg-[#f9f8f3]{% endif %}" aria-label="creative corner menu">
 
     <div class="flex">
         <!-- Brand Logo -->
