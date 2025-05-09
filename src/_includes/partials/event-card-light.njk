@@ -1,5 +1,5 @@
 <div class="bg-white rounded shadow p-4 text-center">
-    <img src="/assets/next-event.jpg" alt="Event image" class="rounded mb-2" />
-    <p class="font-semibold">The Breakout Sessions</p>
-    <p class="text-sm text-gray-500">May 30th, 2025</p>
-  </div>
+  <img src="{{ event.image }}" alt="{{ event.alt }}" class="rounded mb-2" />
+  <p class="font-semibold">{{ event.title }}</p>
+  <p class="text-sm text-gray-500">{{ event.date }}</p>
+</div>

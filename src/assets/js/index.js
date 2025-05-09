@@ -63,5 +63,5 @@ window.countdownTimer = function (targetDateString) {
     };
   }
 
+
 Alpine.start()
-console.log('hello from index.js')

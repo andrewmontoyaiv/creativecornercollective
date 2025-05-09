@@ -4,7 +4,7 @@ layout: base-light
 ---
 
 
-<main class="relative">
+<main class="relative scroll-smooth">
   {% set theme = "main" %}    
   {% include "partials/header.njk" %}
   <section class="px-4 sm:px-10 max-w-6xl mx-auto w-full text-center mt-10 flex flex-col items-center">
@@ -91,19 +91,21 @@ layout: base-light
     <p class="max-w-xl mx-auto">Creative Corner Collective is a vibrant community space where artists, musicians, and visionaries come together to share music and good vibes. Whether you’re here to celebrate self-expression, foster meaningful connection, or ignite collaborative creativity — welcome.</p>
   </section>
 
-  <div class="w-full p-2 text-gray-400">
-    {% include "partials/separator.njk" %}
-  </div>
+  <section id="socials" class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12">
   
-  <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
-    <h3 class="text-xl font-bold text-center mb-6">Our Past Events</h3>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-      {% include "partials/event-card-light.njk" %}
-      {% include "partials/event-card-light.njk" %}
-      {% include "partials/event-card-light.njk" %}
-    </div>
-    <div class="text-center mt-4">
-      <a href="/events" class="text-blue-500 hover:underline">Show All Events</a>
+    <div class="flex justify-center gap-8 text-3xl">
+      <a href="https://instagram.com/yourhandle" target="_blank" class="transition-transform hover:scale-110 text-pink-500 hover:text-pink-600">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/@yourhandle" target="_blank" class="transition-transform hover:scale-110 text-black hover:text-gray-800">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://facebook.com/yourhandle" target="_blank" class="transition-transform hover:scale-110 text-blue-600 hover:text-blue-700">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://youtube.com/@yourhandle" target="_blank" class="transition-transform hover:scale-110 text-red-600 hover:text-red-700">
+        <i class="fab fa-youtube"></i>
+      </a>
     </div>
   </section>
 
@@ -111,12 +113,28 @@ layout: base-light
     {% include "partials/separator.njk" %}
   </div>
   
-  <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
+  <section id="events" class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
+    <h3 class="text-xl font-bold text-center mb-6">Our Past Events</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      {% for event in events %}
+        {% include "partials/event-card-light.njk" %}
+      {% endfor %}
+    </div>
+    <div class="text-center mt-4">
+      {# <a href="/events" class="text-blue-500 hover:underline">Show All Events</a> #}
+    </div>
+  </section>
+
+  <div class="w-full p-2 text-gray-400">
+    {% include "partials/separator.njk" %}
+  </div>
+  
+  <section id="artists" class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
     <h3 class="text-xl font-bold text-center mb-6">Artist Spotlight</h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-      {% include "partials/artist-card-light.njk" %}
-      {% set name = "Kim Anna" %}
-      {% include "partials/artist-card-light.njk" %}
+      {% for artist in artists %}
+        {% include "partials/artist-card-light.njk" %}
+      {% endfor %}
     </div>
   </section>
   
@@ -124,46 +142,12 @@ layout: base-light
     <div style="margin: 0 -100px;" class="absolute inset-y-0 inset-x-[-100px] -z-10 pointer-events-none">
       {% svg "paper-cutout", "w-full h-full object-fill fill-gray-200" %}
     </div>
-    <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 flex flex-col items-center relative z-10">
-      <h3 class="text-xl font-bold text-center mt-12 mb-8">Ready to Show Off Your Creativity?</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div>
-          <p class="mb-4 caveat text-lg">CALLING ALL ARTISTS</p>
-          <p>We’re always looking for new voices, new sounds, and fresh creativity to join our growing community. Whether you sing, paint, write, play, or perform — we’d love to hear from you! Tell us a bit about your art. If it feels like a good fit, we’ll reach out to talk — mini conversation (think coffee chat, not job interview ☕️).</p>
-        </div>
-        <form x-data="{ email: '', message: '' }" action="https://formspree.io/f/mldbnjjb" method="POST" class="space-y-4 mb-48">
-          <input type="text" placeholder="Name" class="w-full p-2 border rounded" />
-        
-          <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded"
-                 x-model="email" required />
-        
-          <textarea name="message" placeholder="Tell Us About Yourself"
-                    class="w-full p-2 border rounded" x-model="message" required></textarea>
-        
-              <button type="submit"
-                    :disabled="!email || !message"
-                    :class="(!email || !message)
-                      ? 'bg-blue-300 text-white cursor-not-allowed opacity-60'
-                      : 'bg-blue-500 text-white hover:bg-blue-600'"
-                    class="w-full px-4 py-2 rounded transition">
-              Submit
-            </button>
-        </form>
-      </div>
-    </section>
+    {% include "partials/artist-signup.njk" %}
   </div>
 
-
-
   
-  <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
-    <h3 class="text-xl font-bold text-center mb-4">Signup for our Newsletter!</h3>
-    <form class="space-y-4">
-      <input type="text" placeholder="Name" class="w-full p-2 border rounded" />
-      <input type="email" placeholder="Email" class="w-full p-2 border rounded" />
-      <button class="bg-blue-500 text-white px-4 py-2 rounded w-full">Submit</button>
-    </form>
-  </section>
+  {% include "partials/newsletter-signup.njk" %}
+
 
   <div class="w-full p-2 text-gray-400">
     {% include "partials/separator.njk" %}

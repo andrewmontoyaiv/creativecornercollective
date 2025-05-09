@@ -19,6 +19,7 @@ const globalSiteData = {
   ogImage: `/assets/og-pf.png`,
 };
 
+
 module.exports = function(eleventyConfig) {
 
   /* --- GLOBAL DATA --- */
@@ -54,7 +55,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss); // just includes absolute url helper function
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(EleventyVitePlugin, {
-
+    viteOptions: {
+      server: {
+        host: true,
+        port: 7000
+      }
+    }
   });
 
   /* --- SHORTCODES --- */

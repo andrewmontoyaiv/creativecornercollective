@@ -1,0 +1,73 @@
+{% set isAfterDark = theme == "afterdark" %}
+
+<section class="px-4 sm:px-10 max-w-2xl mx-auto mt-12"
+x-data="{
+  name: '',
+  email: '',
+  loading: false,
+  success: false,
+  async submit($event) {
+    this.loading = true;
+    const res = await fetch($event.target.action, {
+      method: 'POST',
+      body: new FormData($event.target),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      $event.target.reset();
+      this.name = '';
+      this.email = '';
+      this.success = true;
+    } else {
+      alert('Something went wrong. Please try again.');
+    }
+    this.loading = false;
+  }
+}"
+>
+<h3 class="text-xl font-bold text-center mb-4">Sign up for our Newsletter!</h3>
+
+<form method="POST"
+action="https://formspree.io/f/mblokrny"
+@submit.prevent="submit"
+class="space-y-4"
+>
+<input type="text" name="message" x-model="name" required
+  placeholder="Name"
+  class="text-black w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+/>
+
+<input type="email" name="email" x-model="email" required
+  placeholder="Email"
+  class="text-black w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+/>
+
+{% if isAfterDark %}
+    <button type="submit"
+    :disabled="loading || !name || !email"
+    :class="(loading || !name || !email)
+        ? 'bg-yellow-300 cursor-not-allowed text-gray-700'
+        : 'bg-yellow-500 hover:bg-yellow-600 cursor-pointer text-black'"
+    class="w-full text-white px-4 py-3 rounded-md transition"
+    x-text="loading ? 'Submitting...' : 'Submit'"
+    ></button>
+{% else %}
+    <button type="submit"
+    :disabled="loading || !name || !email"
+    :class="(loading || !name || !email)
+        ? 'bg-blue-300 cursor-not-allowed'
+        : 'bg-blue-500 hover:bg-blue-600 cursor-pointer'"
+    class="w-full text-white px-4 py-3 rounded-md transition"
+    x-text="loading ? 'Submitting...' : 'Submit'"
+    ></button>
+{% endif %}
+
+</form>
+
+<p x-show="success"
+x-transition
+class="text-center text-green-600 font-medium mt-4"
+>
+You’re now subscribed! 🎉
+</p>
+</section>

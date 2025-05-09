@@ -1,6 +1,6 @@
 <div class="bg-white rounded shadow p-4 text-center">
-    <img src="/assets/artist-david.jpg" alt="Artist photo" class="rounded-full h-24 w-24 mx-auto mb-2" />
-    <p class="font-bold">{{ name or "David Riley" }}</p>
-    <p class="text-sm text-gray-600">We’re always looking for new voices, new sounds, and fresh creativity to join our growing community.</p>
-    <a href="#" class="text-red-500 mt-2 block"><i class="fab fa-youtube"></i></a>
+    <img src="{{ artist.photo }}" alt="{{ artist.name }}" class="rounded-full h-24 w-24 mx-auto mb-2" />
+    <p class="font-bold">{{ artist.name }}</p>
+    <p class="text-sm text-gray-600">{{ artist.bio }}</p>
+    <a href="{{ artist.link }}" target="_blank" class="text-blue-600 hover:underline">Follow Their Work</a>
   </div>

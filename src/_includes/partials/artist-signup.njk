@@ -1,0 +1,77 @@
+{% set isAfterDark = theme == "afterdark" %}
+
+<section id="artist_signup" x-data="{
+    name: '',
+    email: '',
+    userMessage: '',
+    loading: false,
+    submitted: false,
+    async submit($event) {
+      this.loading = true;
+
+      // Update the hidden message field with the combined content
+      const combinedMessage = `${this.name} - ${this.userMessage}`;
+      const formData = new FormData($event.target);
+      formData.set('message', combinedMessage);
+
+      const res = await fetch($event.target.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        $event.target.reset();
+        this.name = '';
+        this.email = '';
+        this.userMessage = '';
+        this.submitted = true;
+      } else {
+        alert('Something went wrong. Please try again.');
+      }
+
+      this.loading = false;
+    }
+  }" class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 flex flex-col items-center relative z-10">
+    <h3 class="text-xl font-bold text-center mt-12 mb-8">Ready to Show Off Your Creativity?</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div>
+        <p class="mb-4 caveat text-lg">CALLING ALL ARTISTS</p>
+        <p>We’re always looking for new voices, new sounds, and fresh creativity to join our growing community. Whether you sing, paint, write, play, or perform — we’d love to hear from you! Tell us a bit about your art. If it feels like a good fit, we’ll reach out to talk — mini conversation (think coffee chat, not job interview ☕️).</p>
+      </div>
+      <form action="https://formspree.io/f/mldbnjjb" @submit.prevent="submit" method="POST" class="space-y-4 mb-48">
+        <input type="text" placeholder="Name" class="w-full p-2 border rounded text-black" x-model="name" />
+      
+        <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded text-black"
+               x-model="email" required />
+      
+        <textarea name="message" placeholder="Tell Us About Yourself"
+                  class="w-full p-2 border rounded text-black" x-model="userMessage" required></textarea>
+      
+            {% if isAfterDark %}
+                <button type="submit"
+                    :disabled="!name || !email || !userMessage"
+                    :class="(!name || !email || !userMessage)
+                    ? 'bg-yellow-300 text-gray-700 cursor-not-allowed opacity-60'
+                    : 'bg-yellow-500 text-blacxk hover:bg-yellow-600'"
+                    class="w-full px-4 py-2 rounded transition"
+                >Submit</button>
+            {% else %}
+                <button type="submit"
+                    :disabled="!name || !email || !userMessage"
+                    :class="(!name || !email || !userMessage)
+                    ? 'bg-blue-300 text-white cursor-not-allowed opacity-60'
+                    : 'bg-blue-500 text-white hover:bg-blue-600'"
+                    class="w-full px-4 py-2 rounded transition"
+                >Submit</button>
+            {% endif %}
+
+          <p x-show="submitted"
+              x-transition
+              class="text-green-600 text-center font-medium mt-2"
+          >
+            Thanks! We'll be in touch soon. 🎨✨
+          </p>
+      </form>
+    </div>
+  </section>

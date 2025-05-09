@@ -13,12 +13,12 @@
         </a>
 
         <!-- Desktop Menu -->
-        <ul class="hidden items-center gap-6 sm:flex font-medium  {% if isAfterDark %}'text-purple-200'{% else %}''{% endif %}">
+        <ul class="hidden items-center gap-6 sm:flex font-medium  {% if isAfterDark %}text-purple-200{% else %}{% endif %}">
             <li><a href="/" class="hover:underline">Creative Corner</a></li>
             <li><a href="/afters/" class="hover:underline">After Dark</a></li>
         </ul>
     </div>
-    <ul class="hidden items-center gap-6 sm:flex font-medium  {% if isAfterDark %}'text-purple-200'{% else %}''{% endif %}">
+    <ul class="hidden items-center gap-6 sm:flex font-medium  {% if isAfterDark %}text-purple-200{% else %}{% endif %}">
         <li><a href="/about-us/" class="hover:underline">About Us</a></li>
         {% for link in navLinks %}
         <li><a href="{{ link.href }}" class="hover:underline">{{ link.label }}</a></li>
@@ -27,7 +27,7 @@
 
 
   <!-- Mobile Menu Button -->
-  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6' : null" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10 z-40" aria-label="mobile menu" aria-controls="mobileMenu">
+  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6' : 'fixed top-6 right-6'" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10 z-40" aria-label="mobile menu" aria-controls="mobileMenu">
     <svg x-cloak x-show="!mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
@@ -58,7 +58,12 @@
         {% include "partials/separator.njk" %}
     </div>
     <li class="p-2"><a href="/about-us/" class="text-lg font-bold hover:underline">About Us</a></li>
-    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline">Get Tickets</a></li>
+    {% if isAfterDark %}
+      <li class="p-2"><a @click.prevent="mobileMenuIsOpen = !mobileMenuIsOpen; $nextTick(() => window.location = '/afters/#artist_signup')" href="/afters/#artist_signup" class="text-lg font-bold hover:underline">Be An Artist!</a></li>
+    {% else %}
+      <li class="p-2"><a @click.prevent="mobileMenuIsOpen = !mobileMenuIsOpen; $nextTick(() => window.location = '/#artist_signup')" href="/#artist_signup" class="text-lg font-bold hover:underline">Be An Artist!</a></li>
+    {% endif %}
+    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline {% if isAfterDark %}text-yellow-500{% else %}text-blue-500{% endif %}">Get Tickets</a></li>
 
 
   </ul>
