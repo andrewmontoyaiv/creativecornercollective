@@ -30,12 +30,12 @@
 
     
     <script src="https://kit.fontawesome.com/d36c9d338e.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-da072450.js"></script>
-    <link rel="stylesheet" href="/assets/index-9ec36763.css">
+    <script type="module" crossorigin src="/assets/index-883762bf.js"></script>
+    <link rel="stylesheet" href="/assets/index-641c1cda.css">
   </head>
   <body class="page-afters-bg parallax-bg text-[#F8EFFF]">
     
-<main class="page-afters">
+<main class="page-afters scroll-smooth">
     
     
 
@@ -50,19 +50,19 @@
         </a>
 
         <!-- Desktop Menu -->
-        <ul class="hidden items-center gap-6 sm:flex font-medium  'text-purple-200'">
+        <ul class="hidden items-center gap-6 sm:flex font-medium  text-purple-200">
             <li><a href="/" class="hover:underline">Creative Corner</a></li>
             <li><a href="/afters/" class="hover:underline">After Dark</a></li>
         </ul>
     </div>
-    <ul class="hidden items-center gap-6 sm:flex font-medium  'text-purple-200'">
+    <ul class="hidden items-center gap-6 sm:flex font-medium  text-purple-200">
         <li><a href="/about-us/" class="hover:underline">About Us</a></li>
         
     </ul>
 
 
   <!-- Mobile Menu Button -->
-  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6' : null" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10 z-40" aria-label="mobile menu" aria-controls="mobileMenu">
+  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6' : 'fixed top-6 right-6'" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10 z-40" aria-label="mobile menu" aria-controls="mobileMenu">
     <svg x-cloak x-show="!mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
@@ -93,7 +93,10 @@
 </div>
     </div>
     <li class="p-2"><a href="/about-us/" class="text-lg font-bold hover:underline">About Us</a></li>
-    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline">Get Tickets</a></li>
+    
+      <li class="p-2"><a @click.prevent="mobileMenuIsOpen = !mobileMenuIsOpen; $nextTick(() => window.location = '/afters/#artist_signup')" href="/afters/#artist_signup" class="text-lg font-bold hover:underline">Be An Artist!</a></li>
+    
+    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline text-yellow-500">Get Tickets</a></li>
 
 
   </ul>
@@ -231,42 +234,42 @@
       <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
         <h3 class="text-xl font-bold text-center mb-6 text-[#F8EFFF]">Our Past Events</h3>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          
           <div class="bg-[#3D0050] rounded shadow p-4 text-center">
-    <img src="/assets/next-event.jpg" alt="Event image" class="rounded mb-2" />
-    <p class="font-semibold text-white">The Breakout Sessions</p>
-    <p class="text-sm text-purple-300">May 30th, 2025</p>
-  </div>
+  <img src="/assets/next-event.jpg" alt="Event image" class="rounded mb-2" />
+  <p class="font-semibold text-white">The Breakout Sessions</p>
+  <p class="text-sm text-purple-300">May 30th, 2025</p>
+</div>
+        
           <div class="bg-[#3D0050] rounded shadow p-4 text-center">
-    <img src="/assets/next-event.jpg" alt="Event image" class="rounded mb-2" />
-    <p class="font-semibold text-white">The Breakout Sessions</p>
-    <p class="text-sm text-purple-300">May 30th, 2025</p>
-  </div>
-          <div class="bg-[#3D0050] rounded shadow p-4 text-center">
-    <img src="/assets/next-event.jpg" alt="Event image" class="rounded mb-2" />
-    <p class="font-semibold text-white">The Breakout Sessions</p>
-    <p class="text-sm text-purple-300">May 30th, 2025</p>
-  </div>
+  <img src="/assets/after-dark.jpg" alt="Late night artist showcase" class="rounded mb-2" />
+  <p class="font-semibold text-white">Creative Corner After Dark</p>
+  <p class="text-sm text-purple-300">June 28th, 2025</p>
+</div>
+        
         </div>
         <div class="text-center mt-4">
-          <a href="/events" class="text-yellow-400 hover:underline">Show All Events</a>
+          
         </div>
       </section>
       <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
         <h3 class="text-xl font-bold text-center mb-6 text-[#F8EFFF]">Artist Spotlight</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div class="bg-[#46005B] rounded shadow p-4 text-center">
-    <img src="/assets/artist-david.jpg" alt="Artist photo" class="rounded-full h-24 w-24 mx-auto mb-2" />
-    <p class="font-bold text-yellow-400">David Riley</p>
-    <p class="text-sm text-purple-200">We’re always looking for new voices, new sounds, and fresh creativity to join our growing community.</p>
-    <a href="#" class="text-white mt-2 block"><i class="fab fa-youtube"></i></a>
+          
+            <div class="bg-[#46005B] rounded shadow p-4 text-center">
+    <img src="/assets/artists/kim-anna.jpg" alt="/assets/artists/kim-anna.jpg" class="rounded-full h-24 w-24 mx-auto mb-2" />
+    <p class="font-bold text-yellow-400">Kim Anna</p>
+    <p class="text-sm text-purple-200">A vibrant vocalist blending neo-soul and synthy textures.</p>
+    <a href="https://instagram.com/kim.anna" target="_blank" class="text-blue-500 hover:underline">Follow Their Work</a>
   </div>
           
-          <div class="bg-[#46005B] rounded shadow p-4 text-center">
-    <img src="/assets/artist-david.jpg" alt="Artist photo" class="rounded-full h-24 w-24 mx-auto mb-2" />
-    <p class="font-bold text-yellow-400">Kim Anna</p>
-    <p class="text-sm text-purple-200">We’re always looking for new voices, new sounds, and fresh creativity to join our growing community.</p>
-    <a href="#" class="text-white mt-2 block"><i class="fab fa-youtube"></i></a>
+            <div class="bg-[#46005B] rounded shadow p-4 text-center">
+    <img src="/assets/artists/jordan-blaze.jpg" alt="/assets/artists/jordan-blaze.jpg" class="rounded-full h-24 w-24 mx-auto mb-2" />
+    <p class="font-bold text-yellow-400">Jordan Blaze</p>
+    <p class="text-sm text-purple-200">Experimental beatmaker crafting immersive live sets.</p>
+    <a href="https://soundcloud.com/jordanblaze" target="_blank" class="text-blue-500 hover:underline">Follow Their Work</a>
   </div>
+          
         </div>
       </section>
       <div class="w-full relative overflow-hidden">
@@ -281,42 +284,140 @@
   </defs>
 </svg>
         </div>
-        <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 flex flex-col items-center relative z-10">
-          <h3 class="text-xl font-bold text-center mt-12 mb-8">Ready to Show Off Your Creativity?</h3>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div>
-              <p class="mb-4 caveat text-lg">CALLING ALL ARTISTS</p>
-              <p>We’re always looking for new voices, new sounds, and fresh creativity to join our growing community. Whether you sing, paint, write, play, or perform — we’d love to hear from you! Tell us a bit about your art. If it feels like a good fit, we’ll reach out to talk — mini conversation (think coffee chat, not job interview ☕️).</p>
-            </div>
-            <form x-data="{ email: '', message: '' }" action="https://formspree.io/f/mldbnjjb" method="POST" class="space-y-4 mb-48">
-              <input type="text" placeholder="Name" class="w-full p-2 border rounded text-black" />
-            
-              <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded text-black"
-                     x-model="email" required />
-            
-              <textarea name="message" placeholder="Tell Us About Yourself"
-                        class="w-full p-2 border rounded text-black" x-model="message" required></textarea>
-            
-                  <button type="submit"
-                        :disabled="!email || !message"
-                        :class="(!email || !message)
-                          ? 'bg-yellow-300 text-white cursor-not-allowed opacity-60'
-                          : 'bg-yellow-500 text-white hover:bg-yellow-600'"
-                        class="w-full px-4 py-2 rounded transition text-black">
-                  Submit
-                </button>
-            </form>
-          </div>
-        </section>
+        
+
+<section id="artist_signup" x-data="{
+    name: '',
+    email: '',
+    userMessage: '',
+    loading: false,
+    submitted: false,
+    async submit($event) {
+      this.loading = true;
+
+      // Update the hidden message field with the combined content
+      const combinedMessage = `${this.name} - ${this.userMessage}`;
+      const formData = new FormData($event.target);
+      formData.set('message', combinedMessage);
+
+      const res = await fetch($event.target.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        $event.target.reset();
+        this.name = '';
+        this.email = '';
+        this.userMessage = '';
+        this.submitted = true;
+      } else {
+        alert('Something went wrong. Please try again.');
+      }
+
+      this.loading = false;
+    }
+  }" class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 flex flex-col items-center relative z-10">
+    <h3 class="text-xl font-bold text-center mt-12 mb-8">Ready to Show Off Your Creativity?</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div>
+        <p class="mb-4 caveat text-lg">CALLING ALL ARTISTS</p>
+        <p>We’re always looking for new voices, new sounds, and fresh creativity to join our growing community. Whether you sing, paint, write, play, or perform — we’d love to hear from you! Tell us a bit about your art. If it feels like a good fit, we’ll reach out to talk — mini conversation (think coffee chat, not job interview ☕️).</p>
       </div>
-      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
-        <h3 class="text-xl font-bold text-center mb-4 text-[#F8EFFF]">Signup for our Newsletter!</h3>
-        <form class="w-full space-y-4">
-          <input type="text" placeholder="Name" class="w-full p-2 border rounded text-black" />
-          <input type="email" placeholder="Email" class="w-full p-2 border rounded text-black" />
-          <button class="bg-yellow-400 text-black px-4 py-2 rounded w-full">Submit</button>
-        </form>
-      </section>
+      <form action="https://formspree.io/f/mldbnjjb" @submit.prevent="submit" method="POST" class="space-y-4 mb-48">
+        <input type="text" placeholder="Name" class="w-full p-2 border rounded text-black" x-model="name" />
+      
+        <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded text-black"
+               x-model="email" required />
+      
+        <textarea name="message" placeholder="Tell Us About Yourself"
+                  class="w-full p-2 border rounded text-black" x-model="userMessage" required></textarea>
+      
+            
+                <button type="submit"
+                    :disabled="!name || !email || !userMessage"
+                    :class="(!name || !email || !userMessage)
+                    ? 'bg-yellow-300 text-gray-700 cursor-not-allowed opacity-60'
+                    : 'bg-yellow-500 text-blacxk hover:bg-yellow-600'"
+                    class="w-full px-4 py-2 rounded transition"
+                >Submit</button>
+            
+
+          <p x-show="submitted"
+              x-transition
+              class="text-green-600 text-center font-medium mt-2"
+          >
+            Thanks! We'll be in touch soon. 🎨✨
+          </p>
+      </form>
+    </div>
+  </section>
+      </div>
+      
+
+<section class="px-4 sm:px-10 max-w-2xl mx-auto mt-12"
+x-data="{
+  name: '',
+  email: '',
+  loading: false,
+  success: false,
+  async submit($event) {
+    this.loading = true;
+    const res = await fetch($event.target.action, {
+      method: 'POST',
+      body: new FormData($event.target),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      $event.target.reset();
+      this.name = '';
+      this.email = '';
+      this.success = true;
+    } else {
+      alert('Something went wrong. Please try again.');
+    }
+    this.loading = false;
+  }
+}"
+>
+<h3 class="text-xl font-bold text-center mb-4">Sign up for our Newsletter!</h3>
+
+<form method="POST"
+action="https://formspree.io/f/mblokrny"
+@submit.prevent="submit"
+class="space-y-4"
+>
+<input type="text" name="message" x-model="name" required
+  placeholder="Name"
+  class="text-black w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+/>
+
+<input type="email" name="email" x-model="email" required
+  placeholder="Email"
+  class="text-black w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+/>
+
+
+    <button type="submit"
+    :disabled="loading || !name || !email"
+    :class="(loading || !name || !email)
+        ? 'bg-yellow-300 cursor-not-allowed text-gray-700'
+        : 'bg-yellow-500 hover:bg-yellow-600 cursor-pointer text-black'"
+    class="w-full text-white px-4 py-3 rounded-md transition"
+    x-text="loading ? 'Submitting...' : 'Submit'"
+    ></button>
+
+
+</form>
+
+<p x-show="success"
+x-transition
+class="text-center text-green-600 font-medium mt-4"
+>
+You’re now subscribed! 🎉
+</p>
+</section>
       <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 text-center">
         <h4 class="text-md font-bold mb-2 text-[#F8EFFF]">Supporters</h4>
         <img src="/assets/diamond-dogs-logo.png" alt="Diamond Dogs Logo" class="mx-auto h-16" />
@@ -324,9 +425,9 @@
 </main>
 
     <footer class="mt-12 py-8 text-center border-t border-purple-800 text-[#F8EFFF]">
-    <img src="/assets/logo-dark.png" alt="Creative Corner Collective Logo" class="h-12 mx-auto mb-4" />
+    <img src="/assets/logo-afterdark-811eac1b.png" alt="Creative Corner Collective Logo" class="h-12 mx-auto mb-4" />
     <nav class="mb-4 text-yellow-400">
-      <a href="/about/" class="mx-2 hover:underline">About</a>
+      <a href="/about-us/" class="mx-2 hover:underline">About</a>
       <a href="/legal/" class="mx-2 hover:underline">Legal</a>
       <a 
         href="mailto:hello.creativecornercollective@gmail.com?subject=Inquiry%20from%20Website&body=Hi%20Creative%20Corner%20Team%2C" 
