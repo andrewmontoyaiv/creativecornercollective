@@ -1,9 +1,9 @@
 {
-  "_index-e7d37785.js": {
+  "_index-3f08357f.js": {
     "css": [
-      "assets/index-ea517af3.css"
+      "assets/index-4971ad32.css"
     ],
-    "file": "assets/index-e7d37785.js"
+    "file": "assets/index-3f08357f.js"
   },
   "assets/images/logo-afterdark.png": {
     "file": "assets/logo-afterdark-811eac1b.png",
@@ -37,6 +37,10 @@
     "file": "assets/cc-session3-324w-bf7695db.png",
     "src": "images/cc-session3-324w.png"
   },
+  "images/kristen-800w.png": {
+    "file": "assets/kristen-800w-6b55c34a.png",
+    "src": "images/kristen-800w.png"
+  },
   "images/logo-afterdark-800w.png": {
     "file": "assets/logo-afterdark-800w-a59450bb.png",
     "src": "images/logo-afterdark-800w.png"
@@ -61,8 +65,12 @@
     "file": "assets/main-event-afters-800w-6f510abf.png",
     "src": "images/main-event-afters-800w.png"
   },
+  "images/multi-cc-800w.png": {
+    "file": "assets/multi-cc-800w-ee69bdf7.png",
+    "src": "images/multi-cc-800w.png"
+  },
   "index.css": {
-    "file": "assets/index-ea517af3.css",
+    "file": "assets/index-4971ad32.css",
     "src": "index.css"
   }
 }
