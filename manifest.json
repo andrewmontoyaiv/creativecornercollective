@@ -1,0 +1,68 @@
+{
+  "_index-e7d37785.js": {
+    "css": [
+      "assets/index-ea517af3.css"
+    ],
+    "file": "assets/index-e7d37785.js"
+  },
+  "assets/images/logo-afterdark.png": {
+    "file": "assets/logo-afterdark-811eac1b.png",
+    "src": "assets/images/logo-afterdark.png"
+  },
+  "assets/images/logo-main.png": {
+    "file": "assets/logo-main-efe0f62e.png",
+    "src": "assets/images/logo-main.png"
+  },
+  "images/andrew-800w.png": {
+    "file": "assets/andrew-800w-eb0d1c1a.png",
+    "src": "images/andrew-800w.png"
+  },
+  "images/cc-after2-800w.png": {
+    "file": "assets/cc-after2-800w-d90ec80f.png",
+    "src": "images/cc-after2-800w.png"
+  },
+  "images/cc-after3-800w.png": {
+    "file": "assets/cc-after3-800w-74c69c3b.png",
+    "src": "images/cc-after3-800w.png"
+  },
+  "images/cc-session1-324w.png": {
+    "file": "assets/cc-session1-324w-647076bc.png",
+    "src": "images/cc-session1-324w.png"
+  },
+  "images/cc-session2-800w.png": {
+    "file": "assets/cc-session2-800w-dc22bf85.png",
+    "src": "images/cc-session2-800w.png"
+  },
+  "images/cc-session3-324w.png": {
+    "file": "assets/cc-session3-324w-bf7695db.png",
+    "src": "images/cc-session3-324w.png"
+  },
+  "images/logo-afterdark-800w.png": {
+    "file": "assets/logo-afterdark-800w-a59450bb.png",
+    "src": "images/logo-afterdark-800w.png"
+  },
+  "images/logo-main-800w.png": {
+    "file": "assets/logo-main-800w-5f9dd7a7.png",
+    "src": "images/logo-main-800w.png"
+  },
+  "images/main-event-1500w.png": {
+    "file": "assets/main-event-1500w-2d56aa45.png",
+    "src": "images/main-event-1500w.png"
+  },
+  "images/main-event-800w.png": {
+    "file": "assets/main-event-800w-eab2dca6.png",
+    "src": "images/main-event-800w.png"
+  },
+  "images/main-event-afters-1500w.png": {
+    "file": "assets/main-event-afters-1500w-3638db0b.png",
+    "src": "images/main-event-afters-1500w.png"
+  },
+  "images/main-event-afters-800w.png": {
+    "file": "assets/main-event-afters-800w-6f510abf.png",
+    "src": "images/main-event-afters-800w.png"
+  },
+  "index.css": {
+    "file": "assets/index-ea517af3.css",
+    "src": "index.css"
+  }
+}

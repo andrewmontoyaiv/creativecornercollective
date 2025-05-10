@@ -29,8 +29,8 @@
 
     
     <script src="https://kit.fontawesome.com/d36c9d338e.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-769d2023.js"></script>
-    <link rel="stylesheet" href="/assets/index-bd6ae381.css">
+    <script type="module" crossorigin src="/assets/index-e7d37785.js"></script>
+    <link rel="stylesheet" href="/assets/index-ea517af3.css">
   </head>
   <body 
     x-data="{ fadeOut: false }"
@@ -192,12 +192,12 @@
             <div class="flex flex-col sm:flex-row rounded-xl overflow-hidden shadow-lg">
               <!-- Image and overlay text -->
               <div class="relative w-full sm:w-2/3 h-64 sm:h-auto">
-                <img src="/assets/next-event.jpg" alt="Creative Corner Sessions" class="w-full h-full object-cover" />
+                <img alt="logo" loading="lazy" decoding="async" class="w-full h-full object-cover" src="/assets/main-event-afters-800w-6f510abf.png" width="1500" height="613" srcset="/assets/main-event-afters-800w-6f510abf.png 800w, /assets/main-event-afters-1500w-3638db0b.png 1500w" sizes="100%">
               </div>
         
               <!-- Event info + actions -->
               <div class="bg-[#2B0030] w-full sm:w-1/3 p-6 flex flex-col justify-center items-center text-center space-y-4">
-                <p class="text-xl font-mono tracking-wide">May 30th, 2025</p>
+                <p class="text-xl font-mono tracking-wide">May 31th, 2025</p>
                 <a href="/get-tickets/" class="bg-blue-400 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-blue-500 transition">
                   Get Tickets
                 </a>
@@ -213,7 +213,7 @@
           <!-- Countdown timer -->
           <div 
             class="text-center mt-10 mb-10 text-yellow-500"
-            x-data="() => countdownTimer('2025-05-30T00:00:00')"
+            x-data="() => countdownTimer('2025-05-31T19:00:00')"
             x-init="start()"
           >
             <h2 class="text-xl font-caveat mb-6">Vibes return in...</h2>
@@ -262,56 +262,48 @@
       <a href="https://www.tiktok.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-white hover:text-gray-200">
         <i class="fab fa-tiktok"></i>
       </a>
-      <a href="https://youtube.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-white hover:text-gray-200">
-        <i class="fab fa-facebook-f"></i>
-      </a>
+      
       <a href="https://youtube.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-white hover:text-gray-200">
         <i class="fab fa-youtube"></i>
       </a>
     </div>
   </section>
 
+      <div class="w-full p-2 text-gray-400">
+        <div class="my-6">
+    <svg width="100%" height="2" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="1" x2="100%" y2="1" stroke="currentColor" stroke-width="2" stroke-dasharray="25 25" />
+    </svg>
+</div>
+      </div>
+
       <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
         <h3 class="text-xl font-bold text-center mb-6 text-[#F8EFFF]">Our Past Events</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          
-          <div class="bg-[#3D0050] rounded shadow p-4 text-center">
-  <img src="/assets/next-event.jpg" alt="Event image" class="rounded mb-2" />
-  <p class="font-semibold text-white">The Breakout Sessions</p>
-  <p class="text-sm text-purple-300">May 30th, 2025</p>
-</div>
         
-          <div class="bg-[#3D0050] rounded shadow p-4 text-center">
-  <img src="/assets/after-dark.jpg" alt="Late night artist showcase" class="rounded mb-2" />
-  <p class="font-semibold text-white">Creative Corner After Dark</p>
-  <p class="text-sm text-purple-300">June 28th, 2025</p>
-</div>
-        
-        </div>
-        <div class="text-center mt-4">
+        <!-- Change to 2 columns and center the grid items -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
+          
+          <div class="bg-[#3D0050] rounded shadow p-4 text-center w-full max-w-xs">
+            <div class="w-full">
+              <img alt="Event Image" loading="lazy" decoding="async" class="w-full" src="/assets/cc-after2-800w-d90ec80f.png" width="800" height="557">
+            </div>
+            <p class="font-semibold text-white"></p>
+            <p class="text-sm text-purple-300 mt-5">March 1st, 2025</p>
+          </div>
+          
+          <div class="bg-[#3D0050] rounded shadow p-4 text-center w-full max-w-xs">
+            <div class="w-full">
+              <img alt="Event Image" loading="lazy" decoding="async" class="w-full" src="/assets/cc-after3-800w-74c69c3b.png" width="800" height="555">
+            </div>
+            <p class="font-semibold text-white"></p>
+            <p class="text-sm text-purple-300 mt-5">April 5th, 2025</p>
+          </div>
           
         </div>
+      
+        <div class="text-center mt-4"></div>
       </section>
-      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12">
-        <h3 class="text-xl font-bold text-center mb-6 text-[#F8EFFF]">Artist Spotlight</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          
-            <div class="bg-[#46005B] rounded shadow p-4 text-center">
-    <img src="/assets/artists/kim-anna.jpg" alt="/assets/artists/kim-anna.jpg" class="rounded-full h-24 w-24 mx-auto mb-2" />
-    <p class="font-bold text-yellow-400">Kim Anna</p>
-    <p class="text-sm text-purple-200">A vibrant vocalist blending neo-soul and synthy textures.</p>
-    <a href="https://instagram.com/kim.anna" target="_blank" class="text-blue-500 hover:underline">Follow Their Work</a>
-  </div>
-          
-            <div class="bg-[#46005B] rounded shadow p-4 text-center">
-    <img src="/assets/artists/jordan-blaze.jpg" alt="/assets/artists/jordan-blaze.jpg" class="rounded-full h-24 w-24 mx-auto mb-2" />
-    <p class="font-bold text-yellow-400">Jordan Blaze</p>
-    <p class="text-sm text-purple-200">Experimental beatmaker crafting immersive live sets.</p>
-    <a href="https://soundcloud.com/jordanblaze" target="_blank" class="text-blue-500 hover:underline">Follow Their Work</a>
-  </div>
-          
-        </div>
-      </section>
+      
       <div class="w-full relative overflow-hidden">
         <div style="margin: 0 -100px;" class="absolute inset-y-0 inset-x-[-100px] -z-10 pointer-events-none">
           <svg  xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1137 763" fill="none" class="w-full h-full object-fill">
@@ -362,7 +354,10 @@
     <h3 class="text-xl font-bold text-center mt-12 mb-8">Ready to Show Off Your Creativity?</h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
       <div>
-        <p class="mb-4 caveat text-lg">CALLING ALL ARTISTS</p>
+        
+          <p class="mb-4 caveat text-lg">CALLING ALL DJS</p>
+        
+        
         <p>We’re always looking for new voices, new sounds, and fresh creativity to join our growing community. Whether you sing, paint, write, play, or perform — we’d love to hear from you! Tell us a bit about your art. If it feels like a good fit, we’ll reach out to talk — mini conversation (think coffee chat, not job interview ☕️).</p>
       </div>
       <form action="https://formspree.io/f/mldbnjjb" @submit.prevent="submit" method="POST" class="space-y-4 mb-48">
@@ -379,8 +374,8 @@
                     :disabled="!name || !email || !userMessage"
                     :class="(!name || !email || !userMessage)
                     ? 'bg-yellow-300 text-gray-700 cursor-not-allowed opacity-60'
-                    : 'bg-yellow-500 text-blacxk hover:bg-yellow-600'"
-                    class="w-full px-4 py-2 rounded transition"
+                    : 'bg-yellow-500 text-black hover:bg-yellow-600'"
+                    class="w-full px-4 py-2 rounded transition text-black"
                 >Submit</button>
             
 
@@ -442,11 +437,13 @@ class="space-y-4"
     <button type="submit"
     :disabled="loading || !name || !email"
     :class="(loading || !name || !email)
-        ? 'bg-yellow-300 cursor-not-allowed text-gray-700'
-        : 'bg-yellow-500 hover:bg-yellow-600 cursor-pointer text-black'"
-    class="w-full text-white px-4 py-3 rounded-md transition"
+        ? 'bg-yellow-300 cursor-not-allowed text-gray-700 opacity-60'
+        : 'bg-yellow-500 hover:bg-yellow-600 cursor-pointer'"
+    class="w-full px-4 py-3 rounded-md transition text-black"
     x-text="loading ? 'Submitting...' : 'Submit'"
     ></button>
+
+
 
 
 </form>
@@ -458,10 +455,7 @@ class="text-center text-green-600 font-medium mt-4"
 You’re now subscribed! 🎉
 </p>
 </section>
-      <section class="px-4 sm:px-10 max-w-6xl mx-auto mt-12 text-center">
-        <h4 class="text-md font-bold mb-2 text-[#F8EFFF]">Supporters</h4>
-        <img src="/assets/diamond-dogs-logo.png" alt="Diamond Dogs Logo" class="mx-auto h-16" />
-      </section>
+      
 </main>
 
 
