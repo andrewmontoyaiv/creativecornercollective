@@ -29,8 +29,8 @@
 
     
     <script src="https://kit.fontawesome.com/d36c9d338e.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-7402a6a2.js"></script>
-    <link rel="stylesheet" href="/assets/index-d845ae42.css">
+    <script type="module" crossorigin src="/assets/index-755c8397.js"></script>
+    <link rel="stylesheet" href="/assets/index-3bfe5e33.css">
   </head>
   <body 
     x-data="{ fadeOut: false }"
@@ -67,19 +67,20 @@
     </div>
     <ul class="hidden text-center items-center gap-6 sm:flex font-medium  ">
       
-          <li><a href="/#artist_signup" class="font-bold hover:underline">Be An Artist!</a></li>
+          <li><a href="/become-an-artist/" class="font-bold hover:underline">Be An Artist!</a></li>
       
-        <li><a href="/about-us/" class="hover:underline">About Us</a></li>
+        <li><a href="/support-us/" class="hover:underline">Help us Grow</a></li>
+        <li><a href="/about-us/" class="hover:underline">Our Story</a></li>
         
     </ul>
 
 
   <!-- Mobile Menu Button -->
-  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6' : 'fixed top-6 right-6'" type="button" class="flex text-on-surface dark:text-on-surface-dark sm:hidden w-10 h-10 z-40" aria-label="mobile menu" aria-controls="mobileMenu">
-    <svg x-cloak x-show="!mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+  <button x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen" x-bind:aria-expanded="mobileMenuIsOpen" type="button" class="flex sm:hidden w-10 h-10 z-50" aria-label="mobile menu" aria-controls="mobileMenu">
+    <svg x-cloak x-show="!mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-full">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
-    <svg x-cloak x-show="mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+    <svg x-cloak x-show="mobileMenuIsOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-full">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
     </svg>
   </button>
@@ -105,11 +106,12 @@
     </svg>
 </div>
     </div>
-    <li class="p-2"><a href="/about-us/" class="text-lg font-bold hover:underline">About Us</a></li>
+    <li class="p-2"><a href="/about-us/" class="text-lg font-bold hover:underline">Our Story</a></li>
+    <li class="p-2"><a href="/support-us/" class="text-lg font-bold hover:underline">Help us Grow</a></li>
     
-      <li class="p-2"><a @click.prevent="mobileMenuIsOpen = !mobileMenuIsOpen; $nextTick(() => window.location = '/#artist_signup')" href="/#artist_signup" class="text-lg font-bold hover:underline">Be An Artist!</a></li>
+      <li class="p-2"><a href="/become-an-artist/" class="text-lg font-bold hover:underline">Be An Artist!</a></li>
     
-    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline text-blue-500">Get Tickets</a></li>
+    <li class="p-2"><a href="/get-tickets/" class="text-lg font-bold hover:underline text-blue-500">RSVP</a></li>
 
 
   </ul>
@@ -183,7 +185,7 @@
               <div class="bg-[#f7f5ee] w-full sm:w-1/3 p-6 flex flex-col justify-center items-center text-center space-y-4">
                 <p class="text-xl tracking-wide">May 31th, 2025</p>
                 <a href="/get-tickets/" class="bg-blue-400 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-blue-500 transition">
-                  Get Tickets
+                  RSVP
                 </a>
                 <!--
                   <a href="#" class="text-blue-400 hover:underline text-sm tracking-wide">
@@ -233,14 +235,14 @@
     </div>
   </section>
   
-  <section class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12">
+  <section class="px-4 sm:px-10 max-w-6xl mx-auto text-center my-12">
     <h3 class="text-2xl font-bold mb-4">Where Creativity Finds Its Voice</h3>
     <p class="max-w-xl mx-auto">Creative Corner Collective is a vibrant community space where artists, musicians, and visionaries come together to share music and good vibes. Whether you’re here to celebrate self-expression, foster meaningful connection, or ignite collaborative creativity — welcome.</p>
   </section>
 
   
 
-<section id="socials" class="px-4 sm:px-10 max-w-6xl mx-auto text-center mt-12">
+<section id="socials" class="px-4 sm:px-10 max-w-6xl mx-auto text-center">
   
     <div class="flex justify-center gap-8 text-3xl">
       <a href="https://www.instagram.com/creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-pink-500 hover:text-pink-600">
@@ -464,19 +466,45 @@ You’re now subscribed! 🎉
 
 
     
-      <footer class="mt-12 py-8 text-center border-t border-gray-300">
+      <footer class="mt-16 pt-10 pb-5 border-t border-gray-300 text-center text-sm text-gray-700">
+  <div class="max-w-screen-md mx-auto px-4">
     <img src="/assets/logo-main-efe0f62e.png" alt="Creative Corner Collective Logo" class="h-12 mx-auto mb-4" />
-    <nav class="mb-4">
-      <a href="/about-us/" class="mx-2 hover:underline">About</a>
-      <a href="/legal/" class="mx-2 hover:underline">Legal</a>
+
+    <!-- Social links -->
+    <div class="mb-6">
+      
+
+<section id="socials" class="px-4 sm:px-10 max-w-6xl mx-auto text-center">
+  
+    <div class="flex justify-center gap-8 text-3xl">
+      <a href="https://www.instagram.com/creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-pink-500 hover:text-pink-600">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-black hover:text-gray-800">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      
+      <a href="https://youtube.com/@creativecornercollective" target="_blank" class="transition-transform hover:scale-110 text-red-600 hover:text-red-700">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </section>
+    </div>
+
+    <!-- Site nav -->
+    <nav class="flex justify-center gap-6 mb-6 text-base">
+      <a href="/about-us/" class="hover:underline">About</a>
+      <a href="/legal/" class="hover:underline">Legal</a>
       <a 
-          href="mailto:hello.creativecornercollective@gmail.com?subject=Inquiry%20from%20Website&body=Hi%20Creative%20Corner%20Team%2C" 
-          class="mx-2 hover:underline">
+        href="mailto:hello.creativecornercollective@gmail.com?subject=Inquiry%20from%20Website&body=Hi%20Creative%20Corner%20Team%2C" 
+        class="hover:underline">
         Contact
       </a>
     </nav>
-    <p class="text-sm">&copy;2025 Creative Corner Collective</p>
-  </footer>
+
+    <p>&copy; 2025 Creative Corner Collective</p>
+  </div>
+</footer>
     
 
     
