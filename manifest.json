@@ -1,9 +1,9 @@
 {
-  "_index-755c8397.js": {
+  "_index-b6ae8d01.js": {
     "css": [
-      "assets/index-3bfe5e33.css"
+      "assets/index-be9bcbd4.css"
     ],
-    "file": "assets/index-755c8397.js"
+    "file": "assets/index-b6ae8d01.js"
   },
   "assets/images/logo-afterdark.png": {
     "file": "assets/logo-afterdark-811eac1b.png",
@@ -70,7 +70,7 @@
     "src": "images/multi-cc-800w.png"
   },
   "index.css": {
-    "file": "assets/index-3bfe5e33.css",
+    "file": "assets/index-be9bcbd4.css",
     "src": "index.css"
   }
 }
